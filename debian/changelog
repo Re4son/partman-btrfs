@@ -1,0 +1,6 @@
+partman-btrfs (1) UNRELEASED; urgency=low
+
+  * Took partman-xfs and s/xfs/btrfs/, essentially.
+  * Added error messages if /boot is on btrfs.
+
+ -- Joey Hess <joeyh@debian.org>  Thu,  4 Mar 2004 12:42:40 -0500
