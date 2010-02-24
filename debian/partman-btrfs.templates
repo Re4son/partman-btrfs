@@ -10,12 +10,6 @@ _Description: Failed to create a file system
  The btrfs file system creation in partition
  #${PARTITION} of ${DEVICE} failed.
 
-Template: partman-btrfs/text/specify_mountpoint
-Type: text
-# :sl2:
-# This is an item in the menu "Partition settings"
-_Description: Mount point:
-
 Template: partman-btrfs/text/btrfs
 Type: text
 # :sl2:
