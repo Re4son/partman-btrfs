@@ -1,8 +1,3 @@
-Template: partman-btrfs/progress_checking
-Type: text
-# :sl2:
-_Description: Checking the btrfs file system in partition #${PARTITION} of ${DEVICE}...
-
 Template: partman-btrfs/create_failed
 Type: error
 # :sl2:
