@@ -1,10 +1,3 @@
-Template: partman-btrfs/create_failed
-Type: error
-# :sl2:
-_Description: Failed to create a file system
- The btrfs file system creation in partition
- #${PARTITION} of ${DEVICE} failed.
-
 Template: partman-btrfs/text/btrfs
 Type: text
 # :sl2:
