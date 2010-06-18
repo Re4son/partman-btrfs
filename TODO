@@ -2,7 +2,7 @@
 * Support for other mkfs.btrfs options, if any are useful.
 * Support for btrfs snapshots / using existing btrfs?
 * mountoptions is missing a few options that may be worth supporting,
-  including degraded, and all optionds that require a parameter.
+  including degraded, and all options that require a parameter.
 * mountoptions contains nobarrier, which is an unsafe option. Remove? Warn?
 * parted support needed for filesystem detection #567176
 * Resizing?
