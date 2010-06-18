@@ -22,11 +22,6 @@ for dev in $DEVICES/*; do
 			fi
 			options=$(get_mountoptions $dev $id)
 			if [ "$mountpoint" = / ]; then
-				if [ "$options" = defaults ]; then
-					options="errors=remount-ro"
-				else
-					options="${options},errors=remount-ro"
-				fi
 				pass=1
 			else
 				pass=2

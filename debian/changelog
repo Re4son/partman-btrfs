@@ -1,3 +1,9 @@
+partman-btrfs (2) UNRELEASED; urgency=low
+
+  * errors=remount-ro doesn't work.  Remove it.
+
+ -- Colin Watson <cjwatson@debian.org>  Fri, 18 Jun 2010 11:20:14 +0100
+
 partman-btrfs (1) unstable; urgency=low
 
   [ Joey Hess ]
