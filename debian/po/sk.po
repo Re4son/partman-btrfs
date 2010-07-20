@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-06-05 11:34+0100\n"
+"PO-Revision-Date: 2010-07-19 09:54+0100\n"
 "Last-Translator: Ivan Masár <helix84@centrum.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "MIME-Version: 1.0\n"
@@ -32,16 +32,15 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "žurnálovací súborový systém ext3"
+msgstr "žurnálovací súborový systém btrfs"
 
 #. Type: error
 #. Description
@@ -49,18 +48,18 @@ msgstr "žurnálovací súborový systém ext3"
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
 msgstr ""
+"btrfs nie je podporovaný ako koreňový súborový systém bez oddeleného /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Váš koreňový súborový systém je typu JFS. Toto môže viesť k problémom so "
-"zavádzačom, ktorý je predvolený v tomto inštalačnom programe."
+"Váš koreňový súborový systém je typu btrfs. Zavádzač, ktorý je predvolený v "
+"tomto inštalačnom programe túto konfiguráciu nepodporuje."
 
 #. Type: error
 #. Description
@@ -76,21 +75,19 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "Použiť nepodporovaný súborový systém pre /boot?"
+msgstr "súborový systém btrfs nie je podporovaný pre /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Váš súborový systém pre /boot je typu JFS. Toto môže viesť k problémom so "
-"zavádzačom, ktorý je predvolený v tomto inštalačnom programe."
+"Váš súborový systém pre /boot je typu btrfs. Zavádzač, ktorý je predvolený v "
+"tomto inštalačnom programe túto konfiguráciu nepodporuje."
 
 #. Type: error
 #. Description

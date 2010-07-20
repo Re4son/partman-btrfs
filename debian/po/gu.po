@@ -34,35 +34,33 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "Ext3 જર્નલિંગ ફાઈલ સિસ્ટમ"
+msgstr "btrfs જર્નલિંગ ફાઈલ સિસ્ટમ"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr ""
+msgstr "અલગ /boot વગર btrfs રુટ ફાઇલ સિસ્ટમ આધારિત નથી"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"તમારી રુટ ફાઇલ સિસ્ટમ JFS ફાઇલ સિસ્ટમ છે. આ સ્થાપન વડે ઉપયોગમાં લેવાતા મુળભુત બૂટ લોડર "
-"સાથે સ્થાપક જોડે મુશ્કેલી ઉભી કરી શકે છે."
+"તમારી રુટ ફાઇલ સિસ્ટમ btrfs ફાઇલ સિસ્ટમ છે. જે સ્થાપન વડે ઉપયોગમાં લેવાતા મુળભુત બૂટ "
+"લોડર સાથે મુશ્કેલી ઉભી કરી શકે છે."
 
 #. Type: error
 #. Description
@@ -77,21 +75,19 @@ msgstr "તમારે નાનું /boot પાર્ટિશન બીજ
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "/boot માટે આધાર ન અપાય તેવી ફાઇલ સિસ્ટમ વાપરશો?"
+msgstr "/boot માટે btrfs ફાઇલ સિસ્ટમ આધારિત નથી"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"તમે JFS ફાઇલ સિસ્ટમ /boot તરીકે માઉન્ટ કરેલ છે. આ સ્થાપન વડે ઉપયોગમાં લેવાતા મુળભુત બૂટ "
-"લોડર સાથે સ્થાપક જોડે મુશ્કેલી ઉભી કરી શકે છે."
+"તમે btrfs ફાઇલ સિસ્ટમ /boot તરીકે માઉન્ટ કરેલ છે. આ સ્થાપન વડે ઉપયોગમાં લેવાતા મુળભુત બૂટ "
+"લોડર સાથે મુશ્કેલી ઉભી કરી શકે છે."
 
 #. Type: error
 #. Description

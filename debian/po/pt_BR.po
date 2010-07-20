@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-07-12 04:52-0300\n"
+"PO-Revision-Date: 2010-07-19 16:41-0300\n"
 "Last-Translator: Felipe Augusto van de Wiel (faw) <faw@debian.org>\n"
 "Language-Team: Brazilian Portuguese <debian-l10n-portuguese@lists.debian."
 "org>\n"
@@ -30,16 +30,15 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "Sistema de arquivos com \"journaling\" ext3"
+msgstr "Sistema de arquivos btrfs com \"journaling\""
 
 #. Type: error
 #. Description
@@ -47,19 +46,19 @@ msgstr "Sistema de arquivos com \"journaling\" ext3"
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
 msgstr ""
+"Não há suporte para o sistema de arquivos raiz btrfs sem /boot separado"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Seu sistema de arquivos raiz é um sistema de arquivos JFS. Isso pode causar "
-"problemas com o carregador de inicialização utilizado por padrão por este "
-"instalador."
+"Seu sistema de arquivos raiz é um sistema de arquivos btrfs. Não há suporte "
+"para esta configuração no carregador de inicialização usado por padrão por "
+"este instalador."
 
 #. Type: error
 #. Description
@@ -76,23 +75,20 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr ""
-"Usar tipo de sistema de arquivos para o qual não há suporte para /boot?"
+msgstr "Não há suporte para uso do sistema de arquivos btrfs no /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Você montou um sistema de arquivos JFS como /boot. Isso provavelmente "
-"causará problemas com o carregador de inicialização utilizado por padrão por "
-"este instalador."
+"Você montou um sistema de arquivos btrfs como /boot. Não há suporte para "
+"esta configuração no carregador de inicialização usado por padrão por este "
+"instalador."
 
 #. Type: error
 #. Description

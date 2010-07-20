@@ -3,21 +3,21 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# 
-# 
+#
+#
 # Debian Installer master translation file template
 # Don't forget to properly fill-in the header of PO files
-# 
+#
 # Debian Installer translators, please read the D-I i18n documentation
 # in doc/i18n/i18n.txt
-# 
-# 
+#
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-06-06 18:37+0530\n"
+"PO-Revision-Date: 2010-07-20 22:26+0530\n"
 "Last-Translator: Sampada <sampadanakhare@gmail.com>\n"
 "Language-Team: Marathi, janabhaaratii, C-DAC, Mumbai, India "
 "<janabhaaratii@cdacmumbai.in>\n"
@@ -35,35 +35,33 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "ईएक्सटी३ जर्नलिंग फाइल प्रणाली"
+msgstr "btrfs जर्नलिंग फाइल प्रणाली"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr ""
+msgstr "वेगळे /boot नसल्यास btrfs मूल फाइल प्रणालीला पाठबळ नाही."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"आपली मूल फाइल प्रणाली ही जेएफएस फाइल प्रणाली आहे. त्यामुळे या अधिष्ठापकाने वापरलेल्या "
-"मूलनिर्धारित आरंभ सूचकात समस्या उद्भवू शकतात."
+"आपली मूल फाइल प्रणाली ही btrfs फाइल प्रणाली आहे. या अधिष्ठापकाने वापरलेल्या "
+"मूलनिर्धारित आरंभ सूचकात तिला पाठबळ नाही."
 
 #. Type: error
 #. Description
@@ -78,21 +76,19 @@ msgstr "आपण एक्सटी३ सारखे अन्य फाइ�
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "पाठबळ नसणारी फाइल प्रणाली /boot  करीता वापरावयाची?"
+msgstr "/boot  करीता btrfs फाइल प्रणालीला पाठबळ नाही. "
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"आपण एक जेएफएस फाइल प्रणाली /boot म्हणून आरोहित केली आहे. त्यामुळे या अधिष्ठापकाने "
-"वापरलेल्या मूलनिर्धारित आरंभ सूचकात समस्या उद्भवू शकतात."
+"आपण एक btrfs फाइल प्रणाली /boot म्हणून आरोहित केली आहे. या अधिष्ठापकाने वापरलेल्या "
+"मूलनिर्धारित आरंभ सूचकात तिला पाठबळ नाही."
 
 #. Type: error
 #. Description

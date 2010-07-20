@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: ro\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-06-06 18:56+0300\n"
+"PO-Revision-Date: 2010-07-18 21:07+0300\n"
 "Last-Translator: ioan-eugen STAN <stan.ieugen@gmail.com>\n"
 "Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
@@ -43,36 +43,34 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "Sistem de fișiere ext3 cu jurnalizare"
+msgstr "Sistem de fișiere btrfs cu jurnalizare"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr ""
+msgstr "Sistemul de fișiere btrfs nu este suportat fără /boot separat"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Sistemul dumneavoastră de fișiere rădăcina este de tip JFS. Acest lucru "
-"poate să cauzeze probleme cu încărcătorul de sistem utilizat implicit de "
-"acest program de instalare."
+"Sistemul dumneavoastră de fișiere rădăcina este de tip btrfs. Această "
+"configurație nu este suportată de încărcătorul de sistem utilizat implicit "
+"de acest program de instalare."
 
 #. Type: error
 #. Description
@@ -89,21 +87,19 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "Utilizați un sistem de fișiere nesuportat pentru /boot?"
+msgstr "Sistemul de fișiere btrfs nu este suportat pentru /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Ați montat un sistem de fișiere de tip JFS ca /boot. Foarte probabil acest "
-"lucru va cauza probleme cu încărcătorul de sistem utilizat implicit de acest "
+"Ați montat un sistem de fișiere de tip btrfs ca /boot. Această configurație "
+"nu este suportată de încărcătorul de sistem utilizat implicit de acest "
 "program de instalare."
 
 #. Type: error

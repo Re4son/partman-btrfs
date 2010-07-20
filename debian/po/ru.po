@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-06-06 21:51+0400\n"
+"PO-Revision-Date: 2010-07-17 13:49+0400\n"
 "Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
 "Language-Team: Russian <debian-l10n-russian@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
@@ -37,34 +37,32 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "Журналируемая файловая система Ext3"
+msgstr "Журналируемая файловая система btrfs"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr ""
+msgstr "Корневая файловая система не поддерживается без отдельного /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Корневой раздел содержит файловую систему JFS. Это может вызвать проблемы с "
+"Корневой раздел содержит файловую систему btrfs. Это не поддерживается "
 "системным загрузчиком, устанавливаемым по умолчанию программой установки."
 
 #. Type: error
@@ -82,22 +80,19 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "Использовать неподдерживаемый тип файловой системы для /boot?"
+msgstr "Файловая система btrfs не поддерживается для /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"В каталог /boot смонтирована файловая система JFS. Это может вызвать "
-"проблемы с системным загрузчиком, устанавливаемым по умолчанию программой "
-"установки."
+"В каталог /boot смонтирована файловая система btrfs. Это не поддерживается "
+"системным загрузчиком, устанавливаемым по умолчанию программой установки."
 
 #. Type: error
 #. Description

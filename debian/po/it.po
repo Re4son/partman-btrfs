@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-06-06 14:19+0200\n"
+"PO-Revision-Date: 2010-07-17 14:11+0200\n"
 "Last-Translator: Milo Casagrande <milo@ubuntu.com>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "MIME-Version: 1.0\n"
@@ -43,16 +43,15 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "File system ext3 con journaling"
+msgstr "File system btrfs con journaling"
 
 #. Type: error
 #. Description
@@ -60,18 +59,19 @@ msgstr "File system ext3 con journaling"
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
 msgstr ""
+"Il file system di root btrfs non è supportato senza una partizione /boot "
+"separata"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Il file system di root è JFS. Questo potrebbe causare problemi con il boot "
-"loader usato in modo predefinito da questo programma d'installazione."
+"Il file system di root è btrfs. Questo non è supportato dal boot loader "
+"usato in modo predefinito da questo programma d'installazione."
 
 #. Type: error
 #. Description
@@ -88,21 +88,19 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "Usare un file system non supportato per /boot?"
+msgstr "File system btrfs non supportato per /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Il file system /boot è JFS. Questo potrebbe causare problemi con il boot "
-"loader usato in modo predefinito da questo programma d'installazione."
+"Il file system /boot è btrfs. Questo non è supportato dal boot loader usato "
+"in modo predefinito da questo programma d'installazione."
 
 #. Type: error
 #. Description
@@ -111,4 +109,5 @@ msgstr ""
 msgid ""
 "You should use another file system, such as ext3, for the /boot partition."
 msgstr ""
-"Si dovrebbe usare un altro file system come ext3 per la partizione di /boot."
+"È consigliato usare un altro file system come ext3 per la partizione di /"
+"boot."

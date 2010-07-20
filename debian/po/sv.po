@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-06-06 10:49+0100\n"
+"PO-Revision-Date: 2010-07-17 13:11+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <debian-l10n-swedish@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
@@ -38,34 +38,32 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "Journalförande filsystemet ext3"
+msgstr "Journalförande filsystemet btrfs"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr ""
+msgstr "rotfilsystem med btrfs stöds inte utan separat /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Ditt rotfilsystem är ett JFS-filsystem. Det här kan orsaka problem med "
+"Ditt rotfilsystem är ett btrfs-filsystem. Detta stöds inte av "
 "starthanteraren som används som standard av installationsprogrammet."
 
 #. Type: error
@@ -82,20 +80,18 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "Använd filsystemstyp som inte stöds för /boot?"
+msgstr "filsystemet btrfs stöds inte för /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Ditt rotfilsystem är ett JFS-filsystem. Det kan orsaka problem med "
+"Du har monterat ett btrfs-filsystem som /boot. Detta stöds inte av "
 "starthanteraren som används som standard av installationsprogrammet."
 
 #. Type: error
