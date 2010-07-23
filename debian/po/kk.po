@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-07-03 12:10+0600\n"
+"PO-Revision-Date: 2010-07-20 21:11+0600\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -33,16 +33,15 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "Журналданушы Ext3 файлдың жүйесі"
+msgstr "btrfs журналдаушы файлдық жүйесі"
 
 #. Type: error
 #. Description
@@ -50,18 +49,19 @@ msgstr "Журналданушы Ext3 файлдың жүйесі"
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
 msgstr ""
+"бөлек /boot бөлімінсіз btrfs файлдық жүйесін түбірлік ретінде қолдануға "
+"қолдау жоқ"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Түбірлік бөлімнің файлдық жүйесі - JFS. Осыған байланысты орнату "
-"бағдарламасы қолданатын әдеттегі жегуші тарапынан қиындықтар тууы мүмкін."
+"Түбірлік бөлімнің файлдық жүйесі - btrfs. Осыған байланысты орнату "
+"бағдарламасы қолданатын әдеттегі жүктеуші тарапынан қиындықтар тууы мүмкін."
 
 #. Type: error
 #. Description
@@ -78,21 +78,19 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "/boot үшін қолдау жоқ файлдық жүйені қолдану керек пе?"
+msgstr "btrfs файлдық жүйесінің /boot үшін қолдауы жоқ"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Сіз JFS файлдық жүйесін /boot ретінде тіркедіңіз. Осыған байланысты орнату "
-"бағдарламасы қолданатын әдеттегі жегуші тарапынан қиындықтар тууы мүмкін."
+"Сіз btrfs файлдық жүйесін /boot ретінде тіркедіңіз. Осыған байланысты орнату "
+"бағдарламасы қолданатын әдеттегі жүктеуші тарапынан қиындықтар тууы мүмкін."
 
 #. Type: error
 #. Description
