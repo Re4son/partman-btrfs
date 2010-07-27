@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-07-04 18:23+0100\n"
+"PO-Revision-Date: 2010-07-18 01:37+0100\n"
 "Last-Translator: Janos Guljas <janos@janos.in.rs>\n"
 "Language-Team: Serbian/Cyrillic\n"
 "MIME-Version: 1.0\n"
@@ -36,16 +36,15 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "Ext3 журналски фајл систем"
+msgstr "btrfs журналски фајл систем"
 
 #. Type: error
 #. Description
@@ -53,17 +52,18 @@ msgstr "Ext3 журналски фајл систем"
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
 msgstr ""
+"Фајл систем btrfs као root фајл систем није подржан без одвојене /boot тачке "
+"монтирања"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Ваш root фајл систем је типа JFS. Ово може узроковати проблеме са "
+"Ваш root фајл систем је типа btrfs. Ово може узроковати проблеме са "
 "подразумеваним бут лоудером."
 
 #. Type: error
@@ -80,20 +80,18 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "Користити неподржани тип фајл система за /boot?"
+msgstr "Фајл систем btrfs није подржан за /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Монтирали сте JFS фајл систем као /boot. Ово ће врло вероватно узроковати "
+"Монтирали сте btrfs фајл систем као /boot. Ово ће врло вероватно узроковати "
 "проблеме са подразумеваним бут лоудером."
 
 #. Type: error
