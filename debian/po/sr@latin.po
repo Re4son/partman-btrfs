@@ -3,24 +3,26 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Lithuanian messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-# Marius Gedminas <mgedmin@b4net.lt>, 2004.
-# Darius Skilinskas <darius10@takas.lt>, 2005.
-# Kęstutis Biliūnas <kebil@kaunas.init.lt>, 2004...2010.
+# Serbian/Latin messages for debian-installer.
+# Copyright (C) 2010 Software in the Public Interest, Inc.
+# This file is distributed under the same license as the debian-installer package.
+# Karolina Kalic <karolina@janos.in.rs>, 2010.
+# Janos Guljas <janos@janos.in.rs>, 2010.
+# , fuzzy
+#
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-07-29 12:37+0300\n"
-"Last-Translator: Kęstutis Biliūnas <kebil@kaunas.init.lt>\n"
-"Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
+"PO-Revision-Date: 2010-07-25 17:32+0100\n"
+"Last-Translator: Karolina Kalic <karolina@janos.in.rs>\n"
+"Language-Team: Serbian/Latin\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 
 #. Type: text
 #. Description
@@ -40,14 +42,16 @@ msgstr "btrfs"
 #. File system name
 #: ../partman-btrfs.templates:2001
 msgid "btrfs journaling file system"
-msgstr "btrfs žurnalinė failų sistema"
+msgstr "btrfs žurnalski fajl sistem"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr "Šakninė btrfs failų sistema nepalaikoma be atskiro /boot"
+msgstr ""
+"Fajl sistem btrfs kao root fajl sistem nije podržan bez odvojene /boot tačke "
+"montiranja"
 
 #. Type: error
 #. Description
@@ -57,8 +61,8 @@ msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Jūsų šakninė (root) failų sistema yra btrfs. Tai gali sukelti problemų "
-"pradiniam įkėlikliui, pagal nutylėjimą naudojamam šiame įdiegiklyje."
+"Vaš root fajl sistem je tipa btrfs. Ovo može uzrokovati probleme sa "
+"podrazumevanim but louderom."
 
 #. Type: error
 #. Description
@@ -68,15 +72,14 @@ msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext3."
 msgstr ""
-"Jūs turite naudoti nedidelį /boot skirsnį su kita failų sistema, kaip pvz. "
-"ext3."
+"Trebalo bi da napravite malu /boot particiju drugog tipa, kao što je ext3."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
 msgid "btrfs file system not supported for /boot"
-msgstr "Failų sistema btrfs netinkama /boot katalogui"
+msgstr "Fajl sistem btrfs nije podržan za /boot"
 
 #. Type: error
 #. Description
@@ -86,8 +89,8 @@ msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Prijungėte btrfs failų sistemą kaip /boot. Tai netinka pradiniam įkėlikliui, "
-"pagal nutylėjimą naudojamam šiame įdiegiklyje."
+"Montirali ste btrfs fajl sistem kao /boot. Ovo će vrlo verovatno uzrokovati "
+"probleme sa podrazumevanim but louderom."
 
 #. Type: error
 #. Description
@@ -95,4 +98,6 @@ msgstr ""
 #: ../partman-btrfs.templates:5001
 msgid ""
 "You should use another file system, such as ext3, for the /boot partition."
-msgstr "Jūs turite naudoti /boot skirsniui kitą failų sistemą, kaip pvz. ext3."
+msgstr ""
+"Trebalo bi da koristite drugi tip fajl sistema kao što je ext3, za /boot "
+"particiju."
