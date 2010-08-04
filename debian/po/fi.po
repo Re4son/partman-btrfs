@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-06-07 21:31+0300\n"
+"PO-Revision-Date: 2010-08-02 23:00+0300\n"
 "Last-Translator: Esko Arajärvi <edu@iki.fi>\n"
 "Language-Team: Finnish <debian-l10n-finnish@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
@@ -35,35 +35,33 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "Ext3 tapahtumakirjanpidon sisältävä tiedostojärjestelmä"
+msgstr "btrfs tapahtumakirjanpidon sisältävä tiedostojärjestelmä"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr ""
+msgstr "btrfs-juuritiedostojärjestelmä vaatii erillisen /boot-osion"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Juuriosion tiedostojärjestelmä on JFS. Tästä saattaa aiheutua pulmia tämän "
-"asentimen oletusarvoisesti käyttämän GRUB-alkulatausohjelman kanssa."
+"Juuriosion tiedostojärjestelmä on btrfs. Tämän asennusohjelman oletuksena "
+"käyttämä alkulatausohjelma ei tue sitä."
 
 #. Type: error
 #. Description
@@ -80,22 +78,19 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "Käytetäänkö /boot-osiolle tiedostojärjestelmää, joka ei ole tuettu?"
+msgstr "btrfs-muotoinen /boot-osio ei ole tuettu"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Liitoskohtaan /boot on liitetty JFS-tiedostojärjestelmä. Luultavasti tästä "
-"aiheutuu pulmia tämän asentimen oletusarvona käyttämän alkulatausohjelman "
-"kanssa."
+"Liitoskohtaan /boot on liitetty btrfs-tiedostojärjestelmä. Tämän "
+"asennusohjelman oletuksena käyttämä alkulatausohjelma ei tue sitä."
 
 #. Type: error
 #. Description
@@ -104,5 +99,5 @@ msgstr ""
 msgid ""
 "You should use another file system, such as ext3, for the /boot partition."
 msgstr ""
-"Olisi käytettävä jotain muuta tiedostojärjestelmää /boot-levyosiolle. "
-"Esimerkiksi ext3 on sopiva."
+"Käytä /boot-osiolla jotain muuta tiedostojärjestelmää, esimerkiksi ext3 on "
+"sopiva."

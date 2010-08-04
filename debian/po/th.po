@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-06-06 15:18+0700\n"
+"PO-Revision-Date: 2010-08-01 22:11+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -30,34 +30,32 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "ระบบแฟ้ม journaling ext3"
+msgstr "ระบบแฟ้ม journaling btrfs"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr ""
+msgstr "ไม่รองรับระบบแฟ้มรากแบบ btrfs โดยไม่มี /boot แยกต่างหาก"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"ระบบแฟ้มรากของคุณเป็นระบบแฟ้ม JFS ซึ่งอาจมีปัญหากับบูตโหลดเดอร์ปริยายที่ใช้โดยโปรแกรมติดตั้งนี้"
+"ระบบแฟ้มรากของคุณเป็นระบบแฟ้ม btrfs ซึ่งบูตโหลดเดอร์ปริยายที่ใช้โดยโปรแกรมติดตั้งนี้ไม่รองรับ"
 
 #. Type: error
 #. Description
@@ -72,21 +70,19 @@ msgstr "คุณควรสร้างพาร์ทิชัน /boot เ�
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "ใช้ระบบแฟ้มที่ไม่รองรับกับ /boot หรือไม่?"
+msgstr "ไม่รองรับระบบแฟ้ม btrfs สำหรับ /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"คุณได้เมานท์ระบบแฟ้มแบบ JFS เป็น /boot "
-"ซึ่งมีแนวโน้มจะเกิดปัญหากับบูตโหลดเดอร์ปริยายที่ใช้โดยโปรแกรมติดตั้งนี้"
+"คุณได้เมานท์ระบบแฟ้มแบบ btrfs เป็น /boot "
+"ซึ่งบูตโหลดเดอร์ปริยายที่ใช้โดยโปรแกรมติดตั้งนี้ไม่รองรับ"
 
 #. Type: error
 #. Description

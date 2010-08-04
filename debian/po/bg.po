@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: bg\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-06-04 23:57+0300\n"
+"PO-Revision-Date: 2010-08-03 20:04+0300\n"
 "Last-Translator: Damyan Ivanov <dmn@debian.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
 "MIME-Version: 1.0\n"
@@ -35,16 +35,15 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "Журнална файлова система ext4"
+msgstr "журнална файлова система btrfs"
 
 #. Type: error
 #. Description
@@ -52,19 +51,18 @@ msgstr "Журнална файлова система ext4"
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
 msgstr ""
+"не се поддържа главна файлова система btrfs за без отделен дял за /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Вашата главна файлова система е JFS. Това може да предизвика проблеми с "
-"програмата за начално зареждане, която се използва по подразбиране от този "
-"инсталатор."
+"Вашата главна файлова система е btrfs. Това не се поддържа от програмата за "
+"начално зареждане, която се използва по подразбиране от този инсталатор."
 
 #. Type: error
 #. Description
@@ -81,22 +79,20 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "Използване на неподдържан тип на файлова система за /boot?"
+msgstr "btrfs не се поддържа за /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Директорията /boot е във файлова система JFS. Това може да предизвика "
-"проблеми с програмата за начално зареждане, която се използва по "
-"подразбиране от този инсталатор."
+"Директорията /boot използва файлова система btrfs. Това не се поддържа от "
+"програмата за начално зареждане, която се използва по подразбиране от този "
+"инсталатор."
 
 #. Type: error
 #. Description
