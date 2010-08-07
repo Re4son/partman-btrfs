@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-06-23 22:52+0200\n"
+"PO-Revision-Date: 2010-08-06 12:55+0200\n"
 "Last-Translator: Piarres Beobide <pi@beobide.net>\n"
 "Language-Team: Basque <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -36,34 +36,32 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "Ext3 egunkaridun fitxategi-sistema"
+msgstr "btrfs egunkaridun fitxategi-sistema"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr ""
+msgstr "btrfs fitxategi-sistema ez da onartzen bereiziriko /boot bat gabe"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Erroko fitxategi-sistema JFS da. Honek lehenetsi moduan instalatzaileak "
+"Erroko fitxategi-sistema btrfs da. Honek lehenetsi moduan instalatzaileak "
 "erabilitako abiarazlearekin arazoak sortu ditzake."
 
 #. Type: error
@@ -81,20 +79,18 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "/boot-erako onartzen ez den fitxategi-sistema bat erabili?"
+msgstr "btrfs fitxategi-sistema ez da onartzen /boot-erako"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"/boot fitxategi-sistema JFS motakoa da. Honek lehenetsi moduan "
+"/boot fitxategi-sistema btrfs motakoa da. Honek lehenetsi moduan "
 "instalatzaileak erabilitako abiarazlearekin arazoak sortu ditzake."
 
 #. Type: error

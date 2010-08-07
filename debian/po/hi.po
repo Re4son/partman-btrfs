@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_hi\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-06-06 08:36-0500\n"
+"PO-Revision-Date: 2010-08-05 16:56-0400\n"
 "Last-Translator: Kumar Appaiah <a.kumar@alumni.iitm.ac.in>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -45,28 +45,26 @@ msgstr ""
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "ईएक्सटी3 जर्नलिंग फ़ाइल सिस्टम"
+msgstr "बीटीआरऍफ़एस जर्नलिंग फ़ाइल सिस्टम"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr ""
+msgstr "बीटीआरऍफ़एस रूट फ़ाइल यन्त्र अलग /boot के बिना संभव नहीं है"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"आपका रूट फाइलतंत्र जेएफएस फाइलसिस्टम है। इस संस्थापक द्वारा प्रयुक्त डिफॉल्ट बूटलोडर के साथ "
-"यह समस्या उत्पन्न कर सकता है।"
+"आपका रूट फाइलतंत्र बीटीआरऍफ़एस फाइलसिस्टम है। इस संस्थापक द्वारा प्रयुक्त डिफॉल्ट बूटलोडर "
+"के साथयह समस्या उत्पन्न कर सकता है।"
 
 #. Type: error
 #. Description
@@ -83,21 +81,19 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "/boot के लिए असमर्थित प्रकार का फाइलतंत्र प्रयोग करें?"
+msgstr "/boot के लिए बीटीआरऍफ़एस असमर्थित"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"आपने एक जेएफएस फाइलतंत्र को /boot पर आरूढ़ किया है। यह इस संस्थापक द्वारा प्रयुक्त डिफॉल्ट "
-"बूटलोडर के साथ समस्या उत्पन्न कर सकता है।"
+"आपने एक बीटीआरऍफ़एस फाइलतंत्र को /boot पर आरूढ़ किया है। यह इस संस्थापक द्वारा प्रयुक्त "
+"डिफॉल्टबूटलोडर के साथ समस्या उत्पन्न कर सकता है।"
 
 #. Type: error
 #. Description

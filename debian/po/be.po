@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: be\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-07-06 14:53+0300\n"
+"PO-Revision-Date: 2010-07-22 18:46+0300\n"
 "Last-Translator: Viktar Siarheichyk <vics@eq.by>\n"
 "Language-Team: Belarusian (Official spelling) <debian-l10n-belarusian@lists."
 "debian.org>\n"
@@ -42,16 +42,15 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "Файлавая сістэма ext3 з падтрымкай журнала"
+msgstr "Файлавая сістэма btrfs з падтрымкай журнала"
 
 #. Type: error
 #. Description
@@ -59,18 +58,19 @@ msgstr "Файлавая сістэма ext3 з падтрымкай журна�
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
 msgstr ""
+"btrfs у якасці каранёвай файлавай сістэмы не падтрымліваецца без асобнага /"
+"boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Вашая каранёвая файлавая сістэма мае тып JFS. Гэта можа выклікаць праблемы з "
-"загрузчыкам, які прадвызначана ўжываецца праграмай усталявання."
+"Вашая каранёвая файлавая сістэма мае тып btrfs. Гэта не падтрымліваецца "
+"загрузчыкам, які прадвызначана ўжываецца гэтай праграмай усталявання."
 
 #. Type: error
 #. Description
@@ -87,21 +87,20 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "Ці выкарыстоўваць для /boot файлавую сістэму, якая не падтрымліваецца?"
+msgstr "Файлавая сістэма btrfs для /boot не падтрымліваецца"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"У каталогу /boot прымацаваная файлавая сістэма тыпу JFS. У выніку магчымыя "
-"праблемы з загрузчыкам, які прапануе гэтая праграма ўсталявання. "
+"У каталогу /boot прымацаваная файлавая сістэма тыпу btrfs. Гэта не "
+"падтрымліваецца загрузчыкам, які прадвызначана ўжываецца ў гэтай праграме "
+"ўсталявання."
 
 #. Type: error
 #. Description
