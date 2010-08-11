@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_hi\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-08-05 16:56-0400\n"
+"PO-Revision-Date: 2010-08-10 17:32-0500\n"
 "Last-Translator: Kumar Appaiah <a.kumar@alumni.iitm.ac.in>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "बीटीआरऍफ़एस"
 
 #. Type: text
 #. Description
