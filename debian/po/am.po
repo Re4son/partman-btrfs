@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-06-29 17:14+0800\n"
-"Last-Translator: Tegegne Tefera <tefera@mekuria.com>\n"
+"PO-Revision-Date: 2010-08-19 16:50+0800\n"
+"Last-Translator: ተገኝ ተፈራ <tefera@mekuria.com>\n"
 "Language-Team: Amharic\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,16 +31,15 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "Ext3 የፋይል ስርዓት"
+msgstr "btrfs መዝጋቢ የፋይል ስርዓት"
 
 #. Type: error
 #. Description
@@ -53,13 +52,12 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"የመረጡት የስር ፋይል ስርዓት JFS የፋይል ስርዓት ነው፡፡ ይህ ተካይ በቀዳሚነት ለሚጠቀመው የማስነሻ ፕሮግራም ችግር "
-"ሊፈጥር ይችላል፡፡"
+"የመረጡት የስር ፋይል ስርዓት btrfs የፋይል ስርዓት ነው፡፡ ይህ ተካይ በቀዳሚነት የሚጠቀምበት የቡት ጫኚ "
+"አልተደገፈም፡፡፡"
 
 #. Type: error
 #. Description
@@ -74,21 +72,18 @@ msgstr "አንድ ትንሽ እንደ ext3 ያለ የፋይል ስርዓት ክ�
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "ለ /boot ያልተደገፈ የፋይል ስርዓት ልጠቀም?"
+msgstr " btrfs የፋይል ስርዓት ለ /boot አልተደገፈም "
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"የJFS ፋይል ስርዓት እንደ /boot እንዲጫን መርጠዋል፡፡ ይህ ምርጫ ይህ ተካይ በቀዳሚነት ከሚጠቀምበት የቡት ጫኚ ጋር "
-"ችግር ሊፈጥር ይችላል፡፡"
+"የbtrfs ፋይል ስርዓት እንደ /boot እንዲጫን መርጠዋል፡፡ ይህ በቀዳሚነት የሚጠቀምበት የቡት ጫኚ አልተደገፈም፡፡"
 
 #. Type: error
 #. Description
