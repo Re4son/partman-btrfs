@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-06-11 17:33-0300\n"
+"PO-Revision-Date: 2010-09-02 21:11-0300\n"
 "Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
 "Language-Team: Esperanto <debian-l10n-esperanto@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
@@ -32,35 +32,33 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "Protokoliga dosiersistemo Ext3"
+msgstr "Protokoliga dosiersistemo btrfs"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr ""
+msgstr "radik-dosiersistemo btrfs ne estas subtenata sen aparta /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Via radika dosiersistemtipo por la radika diskparto estas JFS. Tio povas "
-"misfunkciigi la ekŝargilon implicite uzatan de tiu ĉi instalilo."
+"Via radika dosiersistemo estas btrfs. Tio ĉi ne estas subtenata de la "
+"ekŝargilo apriore uzata de tiu ĉi instalilo."
 
 #. Type: error
 #. Description
@@ -77,21 +75,19 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "Ĉu uzi ne subtenatan tipon de dosiersistemo por /boot?"
+msgstr "dosiersistemo btrfs ne estas subtenata por /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Vi muntis dosiersistemon JFS kiel /boot. Tio ofte misfunkciigas la "
-"ekŝargilon implicite uzatan de ĉi tiu instalilo."
+"Vi muntis dosiersistemon btrfs kiel /boot. Tio ĉi ne estas subtenata de la "
+"ekŝargilo apriore uzata de ĉi tiu instalilo."
 
 #. Type: error
 #. Description
