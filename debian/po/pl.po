@@ -6,14 +6,14 @@
 # Polish messages for debian-installer.
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
-# Copyright (C) 2004-2008 Bartosz Feński <fenio@debian.org>
+# Copyright (C) 2004-2010 Bartosz Feński <fenio@debian.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-06-22 15:47+0200\n"
+"PO-Revision-Date: 2010-09-06 20:59+0200\n"
 "Last-Translator: Bartosz Fenski <fenio@debian.org>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
@@ -30,16 +30,15 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "System plików ext3 z księgowaniem"
+msgstr "System plików btrfs z księgowaniem"
 
 #. Type: error
 #. Description
@@ -47,17 +46,18 @@ msgstr "System plików ext3 z księgowaniem"
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
 msgstr ""
+"btrfs jako główny system plików jest nieobsługiwany bez osobnej partycji /"
+"boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Twój główny system plików używa JFS. To zazwyczaj powoduje problemy z "
+"Twój główny system plików to btrfs. To zazwyczaj powoduje problemy z "
 "programem rozruchowym, który jest domyślnie używany przez instalator."
 
 #. Type: error
@@ -74,20 +74,18 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "Użyć nieobsługiwanego systemu plików dla /boot?"
+msgstr "Użyć nieobsługiwanego systemu plików btrfs dla /boot?"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Twój system plików /boot używa JFS. To zazwyczaj powoduje problemy z "
+"Twój system plików /boot to btrfs. To zazwyczaj powoduje problemy z "
 "programem rozruchowym, który jest domyślnie używany przez instalator."
 
 #. Type: error
