@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: debian-installer squeeze\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-06-26 16:46+0200\n"
+"PO-Revision-Date: 2010-10-18 21:17+0200\n"
 "Last-Translator: Jordi Mallach <jordi@debian.org>\n"
 "Language-Team: Catalan <debian-l10n-catalan@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
@@ -31,16 +31,15 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "Sistema de fitxers transaccional ext3"
+msgstr "Sistema de fitxers transaccional btrfs"
 
 #. Type: error
 #. Description
@@ -48,19 +47,19 @@ msgstr "Sistema de fitxers transaccional ext3"
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
 msgstr ""
+"El sistema de fitxers btrfs no és suportat sense una partició /boot separada"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"El vostre sistema de fitxers arrel és un sistema de fitxers JFS. Això pot "
-"causar problemes amb el carregador que utilitza de manera predeterminada "
-"aquest instal·lador."
+"El sistema de fitxers arrel és un sistema de fitxers btrfs. Això no és "
+"suportat pel carregador que utilitza de manera predeterminada aquest "
+"instaŀlador."
 
 #. Type: error
 #. Description
@@ -77,22 +76,19 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "Voleu utilitzar un sistema de fitxers no suportat per a /boot?"
+msgstr "El sistema de fitxers btrfs no és suportat per a /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Heu muntat un sistema de fitxers JFS a /boot. Això pot causar molt "
-"probablement problemes amb el carregador que utilitza de manera "
-"predeterminada aquest instal·lador."
+"Heu muntat un sistema de fitxers btrfs a /boot. Això no és suportat pel "
+"carregador que utilitza de manera predeterminada aquest instaŀlador."
 
 #. Type: error
 #. Description
