@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: debian-installer (level1)\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-06-21 23:15+0700\n"
+"PO-Revision-Date: 2010-10-21 02:05+0700\n"
 "Last-Translator: Arief S Fitrianto <arief@gurame.fisika.ui.ac.id>\n"
 "Language-Team: Bahasa Indonesia <debian-l10n-id@gurame.fisika.ui.ac.id>\n"
 "MIME-Version: 1.0\n"
@@ -40,16 +40,15 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "sistem berkas berjurnal Ext3"
+msgstr "sistem berkas berjurnal btrfs"
 
 #. Type: error
 #. Description
@@ -57,18 +56,18 @@ msgstr "sistem berkas berjurnal Ext3"
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
 msgstr ""
+"Sistem berkas root dengan btrfs tidak didukung tanpa partisi /boot terpisah"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Sistem berkas root Anda berjenis JFS. Sepertinya akan menyebabkan masalah "
-"dengan boot loader bawaan yang digunakan d-i."
+"Sistem berkas root Anda berjenis btrfs. Ini tidak didukung oleh boot loader "
+"bawaan yang digunakan d-i."
 
 #. Type: error
 #. Description
@@ -85,21 +84,19 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "Gunakan jenis sistem berkas yang tak didukung untuk /boot?"
+msgstr "Sistem berkas btrfs tak disarankan untuk /boot?"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Anda telah mengaitkan sistem berkas JFS pada /boot. Ini dapat menimbulkan "
-"masalah dengan boot loader bawaan yang digunakan penginstal ini."
+"Anda telah mengaitkan sistem berkas btrfs pada /boot. Ini tidak didukung "
+"oleh bootloader bawaan yang digunakan penginstal ini."
 
 #. Type: error
 #. Description

@@ -3,20 +3,26 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Irish messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
+# translation of debian-installer_packages_po_sublevel1_is.po to Icelandic
+# Icelandic messages for debian-installer.
 # This file is distributed under the same license as debian-installer.
+# Copyright (C) 2003 Software in the Public Interest, Inc.
+#
+# zorglubb <debian-user-icelandic@lists.debian.org>, 2008.
+# Sveinn í Felli <sveinki@nett.is>, 2010.
+# Copyright (C) 2010 Free Software Foundation
 msgid ""
 msgstr ""
-"Project-Id-Version: debian-installer\n"
+"Project-Id-Version: debian-installer_packages_po_sublevel1_is\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2006-03-21 14:42-0500\n"
-"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
-"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2010-10-12 13:30+0000\n"
+"Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
+"Language-Team: Icelandic <rglug@rglug.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: is\n"
 
 #. Type: text
 #. Description
@@ -36,14 +42,14 @@ msgstr "btrfs"
 #. File system name
 #: ../partman-btrfs.templates:2001
 msgid "btrfs journaling file system"
-msgstr "Córas comhad iriseáin btrfs"
+msgstr "btrfs dagbókarstutt skráakerfi"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr "ní thacaítear le fréamhchóras comhad btrfs gan deighilt /boot ar leith"
+msgstr "btrfs rótarskráakerfi er ekki stutt á sérstakrar /boot disksneiðar"
 
 #. Type: error
 #. Description
@@ -53,8 +59,8 @@ msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Is córas comhad btrfs é do fhréamhchóras comhad.  Ní thacaíonn an luchtóir "
-"tosaithe a úsáideann an suiteálaí seo de réir réamhshocraithe leis."
+"Rótarskráakerfið þitt er btrfs. Þetta getur valdið vandamálum fyrir "
+"ræsistjórann sem þessi uppsetning notar sjálfgefið."
 
 #. Type: error
 #. Description
@@ -63,16 +69,14 @@ msgstr ""
 msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext3."
-msgstr ""
-"Ba chóir duit deighilt bheag /boot a úsáid le córas comhad eile, mar shampla "
-"ext3."
+msgstr "Þú ættir að nota litla /boot sneið með öðru skráakerfi, t.d. ext3."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
 msgid "btrfs file system not supported for /boot"
-msgstr "ní thacaítear le córas comhad btrfs ar /boot"
+msgstr "btrfs skráarkerfið er ekki stutt fyrir /boot"
 
 #. Type: error
 #. Description
@@ -82,8 +86,8 @@ msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"D'fheistigh tú córas comhad btrfs mar /boot.  Ní thacaíonn an luchtóir "
-"tosaithe a úsáideann an suiteálaí seo de réir réamhshocraithe leis."
+"Þú hefur tengt btrfs skráakerfi sem /boot. Þetta getur valdið vandamálum "
+"fyrir ræsistjórann sem þessi uppsetning notar sjálfgefið."
 
 #. Type: error
 #. Description
@@ -91,6 +95,4 @@ msgstr ""
 #: ../partman-btrfs.templates:5001
 msgid ""
 "You should use another file system, such as ext3, for the /boot partition."
-msgstr ""
-"Ba chóir duit córas comhad eile, mar shampla ext3, le haghaidh na deighilte /"
-"boot."
+msgstr "Þú ættir að nota annað skráakerfi fyrir /boot sneiðina, t.d. ext3."

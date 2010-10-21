@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-06-22 10:31+0900\n"
+"PO-Revision-Date: 2010-10-21 01:59+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team:  Korean <debian-l10n-korean@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
@@ -31,16 +31,15 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "EXT3 저널링 파일 시스템"
+msgstr "BRTFS 저널링 파일 시스템"
 
 #. Type: error
 #. Description
@@ -48,18 +47,19 @@ msgstr "EXT3 저널링 파일 시스템"
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
 msgstr ""
+"BRTFS 루트 파일 시스템은 별도의 /boot 파티션을 만들지 않으면 지원하지 않습니"
+"다."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"루트 파일 시스템이 JFS 파일 시스템입니다. 설치 프로그램에서 기본으로 사용하"
-"는 부트로더에서 문제가 발생할 수 있습니다."
+"루트 파일 시스템이 BRTFS 파일 시스템입니다. 설치 프로그램에서 기본으로 사용하"
+"는 부트로더에서 지원하지 않습니다."
 
 #. Type: error
 #. Description
@@ -75,21 +75,19 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "/boot 파티션에 지원하지 않는 파일 시스템을 사용하시겠습니까?"
+msgstr "BRTFS 파일 시스템은 /boot 파티션에 지원하지 않습니다"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"JFS 파일 시스템을 /boot로 마운트했습니다. 설치 프로그램에서 기본으로 사용하"
-"는 부트로더에서 문제가 발생할 수 있습니다."
+"BRTFS 파일 시스템을 /boot로 마운트했습니다. 설치 프로그램에서 기본으로 사용하"
+"는 부트로더에서 지원하지 않습니다."
 
 #. Type: error
 #. Description
