@@ -19,6 +19,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 
 #. Type: text
 #. Description
@@ -37,28 +38,26 @@ msgstr "btrfs"
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "Ext3 日誌式檔案系統"
+msgstr "btrfs 日誌式檔案系統"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr ""
+msgstr "若沒有將 /boot 分割區獨立出來將無法以 btrfs 做為 root 檔案系統"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"您的 root 檔案系統所使用的是 JFS 檔案系統。它和本安裝程式所預設的開機程式搭配"
-"使用時很可能會發生問題。"
+"您的 root 檔案系統使用了 btrfs 檔案系統，尚未被本安裝程式所預設的開機程式支"
+"援。"
 
 #. Type: error
 #. Description
@@ -74,21 +73,19 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "是否在 /boot 上使用不被支援的檔案系統？"
+msgstr "無法在 /boot 上使用 btrfs 檔案系統"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"您掛載在 /boot 上的是 JFS 檔案系統。它和本安裝程式所預設的開機程式搭配使用時"
-"很可能會發生問題。"
+"您掛載在 /boot 上的是 btrfs 檔案系統。它和本安裝程式所預設的開機程式搭配使用"
+"時很可能會發生問題。"
 
 #. Type: error
 #. Description
