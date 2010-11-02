@@ -30,35 +30,33 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "Ext3 dnevnički datotečni sustav"
+msgstr "btrfs dnevnički datotečni sustav"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr ""
+msgstr "btrfs korijenski datotečni sustav nije podržan bez odvojenog /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Vaš korijenski datotečni sustav je JFS. To će vjerojatno izazvati probleme s "
-"boot učitavačem koji je zadan za ovu instalaciju."
+"Vaš korijenski datotečni sustav je btrfs. To će vjerojatno izazvati probleme "
+"s boot učitavačem koji je zadan za ovu instalaciju."
 
 #. Type: error
 #. Description
@@ -75,21 +73,19 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "Rabi nepodržani datotečni sustav za /boot?"
+msgstr "btrfs nije podržani datotečni sustav za /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Montirali ste JFS datotečni sustav kao /boot. To će vjerojatno izazvati "
-"probleme s boot učitavačem koji je zadan za ovu instalaciju."
+"Montirali ste btrfs datotečni sustav kao /boot. To nije podržano u boot "
+"učitavaču koji je zadan za ovu instalaciju."
 
 #. Type: error
 #. Description
