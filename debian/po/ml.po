@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: Debian Installer Level 1\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-06-27 13:04+0530\n"
+"PO-Revision-Date: 2010-11-04 22:32+0530\n"
 "Last-Translator: Praveen Arimbrathodiyil <pravi.a@gmail.com>\n"
 "Language-Team: Debian Malayalam <debian-l10n-malayalam@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
@@ -38,34 +38,32 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "Ext3 ജേര്‍ണലിങ്ങ് ഫയല്‍ സിസ്റ്റം"
+msgstr "btrfs ജേര്‍ണലിങ്ങ് ഫയല്‍ സിസ്റ്റം"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr ""
+msgstr "ഒറ്റയ്ക്കൊരു /boot ഇല്ലാതെ റൂട്ട് ഫയല്‍സിസ്റ്റത്തിനു് btrfs തെരഞ്ഞെടുക്കാന്‍ പിന്തുണയില്ല"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"നിങ്ങളുടെ റൂട്ട് ഫയല്‍ സിസ്റ്റം ഒരു JFS ഫയല്‍ സിസ്റ്റമാണു്. ഈ ഇന്‍സ്റ്റോളര്‍ സഹജമായി ഉപയോഗിക്കുന്ന "
+"നിങ്ങളുടെ റൂട്ട് ഫയല്‍ സിസ്റ്റം ഒരു btrfs ഫയല്‍ സിസ്റ്റമാണു്. ഈ ഇന്‍സ്റ്റോളര്‍ സഹജമായി ഉപയോഗിക്കുന്ന "
 "ബൂട്ട് ലോഡറുമായി ഇതു് പ്രശ്നമുണ്ടാക്കാം."
 
 #. Type: error
@@ -82,20 +80,18 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "/boot ന് പിന്തുണക്കാത്ത ഫയല്‍ സിസ്റ്റം തരം ഉപയോഗിക്കണോ?"
+msgstr "/boot ന് btrfs ഫയല്‍ സിസ്റ്റം പിന്തുണയ്ക്കുന്നില്ല"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"നിങ്ങള്‍  ഒരു JFS ഫയല്‍ സിസ്റ്റം /boot ആയി മൌണ്ട് ചെയ്തിരിയ്ക്കുന്നു. ഈ ഇന്‍സ്റ്റോളര്‍ സഹജമായി "
+"നിങ്ങള്‍ ഒരു btrfs ഫയല്‍ സിസ്റ്റം /boot ആയി മൌണ്ട് ചെയ്തിരിയ്ക്കുന്നു. ഈ ഇന്‍സ്റ്റോളര്‍ സഹജമായി "
 "ഉപയോഗിക്കുന്ന ബൂട്ട് ലോഡറുമായി ഇതു് പ്രശ്നമുണ്ടാക്കാന്‍ സാധ്യതയുണ്ടു്."
 
 #. Type: error
