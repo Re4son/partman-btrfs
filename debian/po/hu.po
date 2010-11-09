@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-10-20 08:39+0100\n"
+"PO-Revision-Date: 2010-11-08 09:16+0100\n"
 "Last-Translator: SZERVÁC Attila <sas@321.hu>\n"
 "Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
 "org>\n"
@@ -39,28 +39,26 @@ msgstr "btrfs"
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "Ext3 naplózó fájlrendszer"
+msgstr "btrfs naplózó fájlrendszer"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr ""
+msgstr "A btrfs gyökér fájlrendszer nem támogatott külön /boot nélkül"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Gyökér fájlrendszered JFS. Ez gondot okozhat e telepítő által "
-"alapértelmezetten használt boot betöltővel."
+"Gyökér fájlrendszered egy btrfs fájlrendszer. Ezt nem támogatja az e "
+"telepítő által alapértelmezetten használt boot betöltő."
 
 #. Type: error
 #. Description
@@ -76,21 +74,19 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "Nem támogatott fájlrendszer-típust használsz a /boot-hoz?"
+msgstr "A btrfs fájlrendszer nem támogatott /boot-hoz"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"JFS fájlrendszer lett csatolva /boot-ként. Ez gondokat fog okozni e telepítő "
-"által használt boot betöltő számára."
+"btrfs fájlrendszert csatoltál, mint /boot. Ez nem támogatott e telepítő "
+"által alapértelmezetten használt boot betöltő számára."
 
 #. Type: error
 #. Description
