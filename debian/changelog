@@ -1,3 +1,38 @@
+partman-btrfs (4) unstable; urgency=low
+
+  [ Updated translations ]
+  * Amharic (am.po) by ተገኝ ተፈራ
+  * Asturian (ast.po) by maacub
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Bengali (bn.po) by Israt Jahan
+  * Catalan (ca.po) by Jordi Mallach
+  * Danish (da.po) by Jacob Sparre Andersen
+  * Greek, Modern (1453-) (el.po) by Emmanuel Galatoulas
+  * Esperanto (eo.po) by Felipe Castro
+  * Estonian (et.po) by Mattias Põldaru
+  * Basque (eu.po) by Piarres Beobide
+  * Persian (fa.po) by Ebrahim Byagowi
+  * Finnish (fi.po) by Esko Arajärvi
+  * Galician (gl.po) by Jorge Barreiro
+  * Hebrew (he.po) by Lior Kaplan
+  * Hindi (hi.po) by Kumar Appaiah
+  * Hungarian (hu.po) by SZERVÁC Attila
+  * Indonesian (id.po) by Arief S Fitrianto
+  * Icelandic (is.po) by Sveinn í Felli
+  * Korean (ko.po) by Changwoo Ryu
+  * Lithuanian (lt.po) by Kęstutis Biliūnas
+  * Malayalam (ml.po) by Praveen Arimbrathodiyil
+  * Bokmål, Norwegian (nb.po) by Hans Fredrik Nordhaug
+  * Dutch (nl.po) by Eric Spreen
+  * Polish (pl.po) by Bartosz Fenski
+  * Tamil (ta.po) by Dr.T.Vasudevan
+  * Thai (th.po) by Theppitak Karoonboonyanan
+  * Turkish (tr.po) by Mert Dirik
+  * Ukrainian (uk.po) by Borys Yanovych
+  * Vietnamese (vi.po) by Clytie Siddall
+
+ -- Otavio Salvador <otavio@debian.org>  Fri, 12 Nov 2010 16:22:59 -0200
+
 partman-btrfs (3) unstable; urgency=low
 
   [ Colin Watson ]
