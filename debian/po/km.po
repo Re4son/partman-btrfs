@@ -4,20 +4,13 @@
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
 # translation of debian-installer_packages_po_sublevel1_km.po to Khmer
-# translation of km.po to
-#
-# Debian Installer master translation file template
-# Don't forget to properly fill-in the header of PO files#
-# Debian Installer translators, please read the D-I i18n documentation
-# in doc/i18n/i18n.txt#
-#
 # Khoem Sokhem <khoemsokhem@khmeros.info>, 2006, 2007, 2008, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_km\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2010-06-21 09:08+0700\n"
+"PO-Revision-Date: 2010-12-13 13:47+0700\n"
 "Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
 "Language-Team: Khmer <support@khmeros.info>\n"
 "MIME-Version: 1.0\n"
@@ -36,34 +29,32 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "ប្រព័ន្ធ​ឯកសារ​ទិន្នានុប្បវត្តិ ext3"
+msgstr "ប្រព័ន្ធ​ឯកសារ​ទិន្នានុប្បវត្តិ btrfs"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr ""
+msgstr "ប្រព័ន្ធ​ឯកសារ btrfs root នឹង​មិន​ត្រូវ​បាន​គាំទ្រ​ដោយ​គ្មាន /boot ផ្សេង​ពី​គ្នា​ទេ"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"ប្រព័ន្ធ​ឯកសារ​ root របស់​អ្នក​គឺ​ជា​ប្រព័ន្ធ​ឯកសារ​ JFS ។ វា​អាច​បណ្ដាល​ឲ្យ​មាន​បញ្ហា​ជាមួយ​នឹង​កម្មវិធី​"
+"ប្រព័ន្ធ​ឯកសារ​ root របស់​អ្នក​គឺ​ជា​ប្រព័ន្ធ​ឯកសារ​ btrfs ។ វា​អាច​បណ្ដាល​ឲ្យ​មាន​បញ្ហា​ជាមួយ​នឹង​កម្មវិធី​"
 "ចាប់ផ្ដើម​ប្រព័ន្ធ ដែល​ប្រើ​ជា​លំនាំដើម​ដោយ​កម្មវិធី​ដំឡើង​នេះ​ ។"
 
 #. Type: error
@@ -79,21 +70,19 @@ msgstr "អ្នក​គួរ​ប្រើ​ភាគថាស /boot ត�
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "ឲ្យ /boot ប្រើ​ប្រភេទ​ប្រព័ន្ធ​ឯកសារ​ដែល​មិន​គាំទ្រ ?"
+msgstr "ប្រព័ន្ធ​ឯកសារ​ ​btrfs នឹង​មិន​ត្រូវ​បាន​គាំ​ទ្រ​សម្រាប់​ /boot ទេ"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"អ្នក​បាន​ម៉ោន​ប្រព័ន្ធ​ឯកសារ​ JFS មួយ​ជា /boot ។ វា​អាច​នឹង​បណ្ដាល​ឲ្យ​មាន​បញ្ហា​ជាមួយ​​នឹង​កម្មវិធី​ចាប់ផ្ដើម​"
-"ប្រព័ន្ធ ដែល​ប្រើ​ជា​លំនាំដើម​ដោយ​កម្មវិធី​ដំឡើង​នេះ ។​"
+"អ្នក​បាន​ម៉ោន​ប្រព័ន្ធ​ឯកសារ​ btrfs ជា​ /boot ។ វា​នឹង​មិន​ត្រូវ​បាន​គាំ​ទ្រ​ដោយ​កម្មវិធី​ចាប់​ផ្ដើម​ប្រព័ន្ធ​តាម​"
+"លំនាំ​ដើម​​ដោយ​កម្មវិធី​ដំឡើង​នេះ​ទេ ​។"
 
 #. Type: error
 #. Description
