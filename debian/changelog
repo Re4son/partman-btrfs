@@ -1,3 +1,17 @@
+partman-btrfs (5) unstable; urgency=low
+
+  [ Updated translations ]
+  * Dzongkha (dz.po) by Jurmey Rabgay
+  * Central Khmer (km.po) by Khoem Sokhem
+  * Lao (lo.po) by Anousak Souphavanh
+  * Latvian (lv.po) by Aigars Mahinovs
+  * Macedonian (mk.po) by Arangel Angov
+  * Northern Sami (se.po) by Børre Gaup
+  * Sinhala (si.po) by Danishka Navin
+  * Slovenian (sl.po) by Vanja Cvelbar
+
+ -- Otavio Salvador <otavio@debian.org>  Fri, 24 Dec 2010 20:24:13 -0200
+
 partman-btrfs (4) unstable; urgency=low
 
   [ Updated translations ]
