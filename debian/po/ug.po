@@ -12,6 +12,8 @@
 # in doc/i18n/i18n.txt
 #
 #
+# Translations from iso-codes:
+# Sahran <sahran.ug@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
@@ -91,7 +93,7 @@ msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"سىز btrfs ھۆججەت سىستېمىسىنى /boot سۈپىتىدە ئېگەرلىدىڭىز. بۇ ئورناتقۇچنىڭ "
+"سىز btrfs ھۆججەت سىستېمىسىنى /boot سۈپىتىدە ئېگەرلىدىڭىز. بۇ ئورناتقۇنىڭ "
 "كۆڭۈلدىكى قوزغىتىش يېتەكلىگۈچنى ئىشلىتىشى بىلەن توقۇنۇشى مۇمكىن."
 
 #. Type: error
