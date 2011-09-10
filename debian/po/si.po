@@ -37,7 +37,7 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
@@ -45,14 +45,14 @@ msgstr ""
 #. File system name
 #: ../partman-btrfs.templates:2001
 msgid "btrfs journaling file system"
-msgstr ""
+msgstr "btrfs ජර්නල ගොනු පද්ධතිය"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr ""
+msgstr "වෙනම /boot නොමැතිව btrfs මූල ගොනු පද්ධතිය සහය දක්වන්නේ නැත"
 
 #. Type: error
 #. Description
@@ -62,6 +62,8 @@ msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
+"ඔබේ මූල ගොනු පද්ධතිය btrfs පද්ධතියකි, මෙය මෙම ස්ථාපකයේ පෙරනිමි ආරම්භක පූරකය සමඟ ගැටළු "
+"ඇතිකල හැක."
 
 #. Type: error
 #. Description
@@ -70,14 +72,14 @@ msgstr ""
 msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext3."
-msgstr ""
+msgstr "ඔබ වඩා කුඩා /boot කොටසක් ext3 වැනි වෙනත් ගොනු පද්ධතියක් සමඟ භාවිත කල යුතුයි."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
 msgid "btrfs file system not supported for /boot"
-msgstr ""
+msgstr "/boot සඳහා  btrfs ගොනු පද්ධතිය සහාය නොදක්වයි"
 
 #. Type: error
 #. Description
@@ -87,6 +89,8 @@ msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
+"ඔබ විසින් btrfs ගොනු පද්ධතියක් /boot ලෙස රඳවා ඇත. මෙය බොහෝ විට මෙය ආරම්භක පූරකය විසින්  "
+"භාවිත කරන ආරම්භක ස්ථාපකයට සහාය නොදක්වයි."
 
 #. Type: error
 #. Description
@@ -94,4 +98,4 @@ msgstr ""
 #: ../partman-btrfs.templates:5001
 msgid ""
 "You should use another file system, such as ext3, for the /boot partition."
-msgstr ""
+msgstr "/boot කොටස සඳහා ext3 වැනි වෙනත් ගොනු පද්ධතියක් භාවිත කල යුතුය."
