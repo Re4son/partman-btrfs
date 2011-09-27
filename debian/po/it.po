@@ -38,8 +38,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
-"POT-Creation-Date: 2010-07-17 06:23+0000\n"
-"PO-Revision-Date: 2011-08-21 18:53+0200\n"
+"POT-Creation-Date: 2011-09-27 22:48+0000\n"
+"PO-Revision-Date: 2011-09-26 22:44+0200\n"
 "Last-Translator: Milo Casagrande <milo@ubuntu.com>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -67,62 +67,3 @@ msgstr "btrfs"
 #: ../partman-btrfs.templates:2001
 msgid "btrfs journaling file system"
 msgstr "File system btrfs con journaling"
-
-#. Type: error
-#. Description
-#. :sl2:
-#: ../partman-btrfs.templates:4001
-msgid "btrfs root file system not supported without separate /boot"
-msgstr ""
-"Il file system di root btrfs non è supportato senza una partizione /boot "
-"separata"
-
-#. Type: error
-#. Description
-#. :sl2:
-#: ../partman-btrfs.templates:4001
-msgid ""
-"Your root file system is a btrfs file system. This is not supported by the "
-"boot loader used by default by this installer."
-msgstr ""
-"Il file system di root è btrfs. Questo non è supportato dal boot loader "
-"usato in modo predefinito da questo programma d'installazione."
-
-#. Type: error
-#. Description
-#. :sl2:
-#: ../partman-btrfs.templates:4001
-msgid ""
-"You should use a small /boot partition with another file system, such as "
-"ext3."
-msgstr ""
-"Si dovrebbe usare una piccola partizione di /boot con un altro file system "
-"come ext3."
-
-#. Type: error
-#. Description
-#. :sl2:
-#: ../partman-btrfs.templates:5001
-msgid "btrfs file system not supported for /boot"
-msgstr "File system btrfs non supportato per /boot"
-
-#. Type: error
-#. Description
-#. :sl2:
-#: ../partman-btrfs.templates:5001
-msgid ""
-"You have mounted a btrfs file system as /boot. This is not supported by the "
-"boot loader used by default by this installer."
-msgstr ""
-"Il file system /boot è btrfs. Questo non è supportato dal boot loader usato "
-"in modo predefinito da questo programma d'installazione."
-
-#. Type: error
-#. Description
-#. :sl2:
-#: ../partman-btrfs.templates:5001
-msgid ""
-"You should use another file system, such as ext3, for the /boot partition."
-msgstr ""
-"È consigliato usare un altro file system come ext3 per la partizione di /"
-"boot."
