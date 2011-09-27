@@ -1,3 +1,9 @@
+partman-btrfs (7) UNRELEASED; urgency=low
+
+  * Allow btrfs /boot partition. This is supported by grub2 and lilo.
+
+ -- Joey Hess <joeyh@debian.org>  Mon, 26 Sep 2011 21:51:07 -0400
+
 partman-btrfs (6) unstable; urgency=low
 
   [ Updated translations ]
