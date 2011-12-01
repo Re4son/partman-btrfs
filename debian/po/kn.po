@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2011-09-27 22:48+0000\n"
-"PO-Revision-Date: 2011-11-18 19:11+0530\n"
+"PO-Revision-Date: 2011-11-27 23:24+0530\n"
 "Last-Translator: Prabodh C P <prabodh@fsmk.org>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
 "Language: kn\n"
@@ -46,6 +46,5 @@ msgstr "btrfs"
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "ಕಡತ ವ್ಯವಸ್ಥೆಗಳನ್ನು ಅವರೋಹಿಸಲಾಗುತ್ತಿದೆ..."
+msgstr "btrfs ದಾಖಲಾತಿ ಕಡತವ್ಯವಸ್ಥೆ"
