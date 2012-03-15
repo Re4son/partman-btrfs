@@ -1,3 +1,15 @@
+partman-btrfs (8) unstable; urgency=low
+
+  [ Updated translations ]
+  * Asturian (ast.po) by Mikel González
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Estonian (et.po) by Mattias Põldaru
+  * Indonesian (id.po) by Mahyuddin Susanto
+  * Icelandic (is.po) by Sveinn í Felli
+  * Kannada (kn.po) by Prabodh C P
+
+ -- Otavio Salvador <otavio@debian.org>  Thu, 15 Mar 2012 14:58:24 -0300
+
 partman-btrfs (7) unstable; urgency=low
 
   [ Joey Hess ]
