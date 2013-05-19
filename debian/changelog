@@ -7,6 +7,7 @@ partman-btrfs (11) UNRELEASED; urgency=low
 
   [ Christian Perrier ]
   * Add myself to Uploaders
+  * Rempalce XC-Package-Type by Package-Type
 
  -- Christian Perrier <bubulle@debian.org>  Sun, 19 May 2013 17:36:34 +0200
 
