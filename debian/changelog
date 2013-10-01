@@ -1,8 +1,8 @@
-partman-btrfs (14) UNRELEASED; urgency=low
+partman-btrfs (14) unstable; urgency=low
 
   * Add nodiratime and discard mount options (see #722598; LP: #978032).
 
- -- Colin Watson <cjwatson@debian.org>  Tue, 01 Oct 2013 10:16:37 +0100
+ -- Colin Watson <cjwatson@debian.org>  Tue, 01 Oct 2013 10:18:23 +0100
 
 partman-btrfs (13) unstable; urgency=low
 
