@@ -1,10 +1,11 @@
-partman-btrfs (15) UNRELEASED; urgency=medium
+partman-btrfs (15) unstable; urgency=medium
 
+  [ Dimitri John Ledkov ]
   * Force formatting as btrfs filesystem, to bypass mkfs.btrfs
     safety-check that target (possibly) contains existing filesystem when
     formatting partitions with btrfs. (LP: #1276356) (Closes: #721847)
 
- -- Dimitri John Ledkov <xnox@ubuntu.com>  Wed, 19 Mar 2014 00:06:00 +0000
+ -- Christian Perrier <bubulle@debian.org>  Sat, 22 Mar 2014 18:57:54 +0100
 
 partman-btrfs (14) unstable; urgency=low
 
