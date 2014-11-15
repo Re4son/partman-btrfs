@@ -1,3 +1,10 @@
+partman-btrfs (16) unstable; urgency=low
+
+  [ Updated translations ]
+  * Galician (gl.po) by Jorge Barreiro
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 15 Nov 2014 07:48:32 +0100
+
 partman-btrfs (15) unstable; urgency=medium
 
   [ Dimitri John Ledkov ]
