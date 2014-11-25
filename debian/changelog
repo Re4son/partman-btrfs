@@ -1,3 +1,9 @@
+partman-btrfs (17) unstable; urgency=medium
+
+  * Re-upload without stray files.
+
+ -- Cyril Brulebois <kibi@debian.org>  Tue, 25 Nov 2014 11:57:20 +0100
+
 partman-btrfs (16) unstable; urgency=low
 
   [ Updated translations ]
