@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2011-09-27 22:48+0000\n"
-"PO-Revision-Date: 2015-06-09 16:17+0200\n"
+"PO-Revision-Date: 2015-06-30 01:49+0200\n"
 "Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
 "Language-Team: Debian L10N Turkish\n"
 "Language: tr\n"
@@ -55,6 +55,5 @@ msgstr "btrfs"
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "ReiserFS günlüklü dosya sistemi"
+msgstr "btrfs günlüklü dosya sistemi"
