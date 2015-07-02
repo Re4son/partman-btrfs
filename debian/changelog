@@ -1,3 +1,10 @@
+partman-btrfs (18) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Turkish (tr.po) by Mert Dirik
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 02 Jul 2015 18:12:23 +0200
+
 partman-btrfs (17) unstable; urgency=medium
 
   * Re-upload without stray files.
