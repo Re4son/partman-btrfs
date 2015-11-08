@@ -21,12 +21,8 @@ for dev in $DEVICES/*; do
 				rm -f $id/options/noexec
 			fi
 			options=$(get_mountoptions $dev $id)
-			if [ "$mountpoint" = / ]; then
-				pass=1
-			else
-				pass=2
-			fi
-			echo "$path" "$mountpoint" btrfs $options 0 $pass
+			# There is no btrfs fsck
+			echo "$path" "$mountpoint" btrfs $options 0 0
 			;;
 		esac
 	done

@@ -1,3 +1,9 @@
+partman-btrfs (19) unstable; urgency=medium
+
+  * Set btrfs fstab passno to zero, as there is no btrfs fsck scripts.
+
+ -- Dimitri John Ledkov <xnox@debian.org>  Sun, 08 Nov 2015 15:01:42 +0000
+
 partman-btrfs (18) unstable; urgency=medium
 
   [ Updated translations ]
