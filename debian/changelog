@@ -1,3 +1,9 @@
+partman-btrfs (20) UNRELEASED; urgency=medium
+
+  * Use HTTPS for Vcs-* URLs, and link to cgit rather than gitweb.
+
+ -- Colin Watson <cjwatson@debian.org>  Fri, 29 Jan 2016 13:35:21 +0000
+
 partman-btrfs (19) unstable; urgency=medium
 
   * Set btrfs fstab passno to zero, as there is no btrfs fsck scripts.
