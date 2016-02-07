@@ -1,8 +1,9 @@
-partman-btrfs (20) UNRELEASED; urgency=medium
+partman-btrfs (20) unstable; urgency=medium
 
+  [ Colin Watson ]
   * Use HTTPS for Vcs-* URLs, and link to cgit rather than gitweb.
 
- -- Colin Watson <cjwatson@debian.org>  Fri, 29 Jan 2016 13:35:21 +0000
+ -- Christian Perrier <bubulle@debian.org>  Sun, 07 Feb 2016 19:13:19 +0100
 
 partman-btrfs (19) unstable; urgency=medium
 
