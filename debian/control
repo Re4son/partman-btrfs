@@ -10,6 +10,6 @@ Vcs-Git: https://anonscm.debian.org/git/d-i/partman-btrfs.git
 Package: partman-btrfs
 Package-Type: udeb
 Architecture: all
-Depends: ${misc:Depends}, btrfs-tools-udeb, btrfs-modules, partman-basicfilesystems (>= 59), partman-base (>= 124)
+Depends: ${misc:Depends}, btrfs-progs-udeb, btrfs-modules, partman-basicfilesystems (>= 59), partman-base (>= 124)
 Provides: partman-filesystem
 Description: Add to partman support for btrfs
