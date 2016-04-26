@@ -1,9 +1,9 @@
-partman-btrfs (20+nmu1) unstable; urgency=medium
+partman-btrfs (21) unstable; urgency=medium
 
-  * Non-maintainer upload.
+  [ Nicholas D Steeves ]
   * Change dependency on btrfs-tools to btrfs-progs.
 
- -- Nicholas D Steeves <nsteeves@gmail.com>  Fri, 08 Apr 2016 16:08:03 -0400
+ -- Christian Perrier <bubulle@debian.org>  Tue, 26 Apr 2016 06:42:46 +0200
 
 partman-btrfs (20) unstable; urgency=medium
 
