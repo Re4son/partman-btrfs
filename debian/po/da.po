@@ -39,8 +39,8 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_da\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2011-09-27 22:48+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2015-08-16 20:20+0200\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -58,7 +58,7 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr ""
+msgstr "btrfs"
 
 #. Type: text
 #. Description
@@ -66,4 +66,4 @@ msgstr ""
 #. File system name
 #: ../partman-btrfs.templates:2001
 msgid "btrfs journaling file system"
-msgstr ""
+msgstr "»btrfs« journaliserende filsystem"
