@@ -1,8 +1,8 @@
-partman-btrfs (22) UNRELEASED; urgency=medium
+partman-btrfs (22) unstable; urgency=medium
 
   * On s390x, zipl bootloader cannot handle /boot on btrfs. LP: #1609140
 
- -- Dimitri John Ledkov <xnox@ubuntu.com>  Tue, 04 Oct 2016 13:15:35 +0100
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Tue, 04 Oct 2016 13:52:18 +0100
 
 partman-btrfs (21) unstable; urgency=medium
 
