@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2016-10-04 22:00+0000\n"
-"PO-Revision-Date: 2016-03-03 21:22+0000\n"
+"PO-Revision-Date: 2016-10-11 20:12+0100\n"
 "Last-Translator:  Miguel Figueiredo <elmig@debianpt.org>\n"
 "Language-Team:  Portuguese <traduz@debianpt.org>\n"
 "Language: pt\n"
@@ -74,13 +74,12 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext4."
 msgstr ""
 "Deve utilizar uma pequena partição /boot com outro sistema de ficheiros, tal "
-"como ext3."
+"como ext4."
 
 #. Type: error
 #. Description
@@ -104,9 +103,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You should use another file system, such as ext4, for the /boot partition."
 msgstr ""
-"Deve utilizar outro sistema de ficheiros, tal como ext3, para a partição /"
+"Deve utilizar outro sistema de ficheiros, tal como ext4, para a partição /"
 "boot."
