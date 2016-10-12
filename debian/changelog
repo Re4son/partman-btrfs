@@ -1,3 +1,11 @@
+partman-btrfs (23) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Polish (pl.po) by Michał Kułach
+  * Portuguese (Brazil) (pt_BR.po) by Adriano Rafael Gomes
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 12 Oct 2016 05:53:58 +0200
+
 partman-btrfs (22) unstable; urgency=medium
 
   * On s390x, zipl bootloader cannot handle /boot on btrfs. LP: #1609140
