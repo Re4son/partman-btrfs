@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer/sublevel1\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2016-10-04 22:00+0000\n"
-"PO-Revision-Date: 2016-03-28 21:18+0200\n"
+"PO-Revision-Date: 2016-10-15 12:30+0200\n"
 "Last-Translator: Frans Spiesschaert <Frans.Spiesschaert@yucom.be>\n"
 "Language-Team: Debian Dutch l10n Team <debian-l10n-dutch@lists.debian.org>\n"
 "Language: nl\n"
@@ -63,59 +63,54 @@ msgstr "btrfs loggend bestandssysteem"
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
 msgstr ""
+"btrfs als basisbestandssysteem wordt zonder een aparte /boot niet ondersteund"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Uw basisbestandssysteem is een JFS-bestandssysteem. Dit kan problemen "
-"veroorzaken met de standaard opstartlader."
+"Uw basisbestandssysteem is een btrfs-bestandssysteem. Dit wordt niet "
+"ondersteund door de standaard opstartlader van dit installatieprogramma."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext4."
 msgstr ""
-"U kunt best een kleine '/boot'-partitie aanmaken met een ander "
-"bestandssysteem (b.v. ext3)."
+"U moet een kleine '/boot'-partitie gebruiken met een ander bestandssysteem, "
+"zoals ext4."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "Er is geen bestandssysteem aangekoppeld op '/target'"
+msgstr "Het btrfs-bestandssysteem wordt niet ondersteund voor '/boot'"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Uw '/boot'-bestandssysteem is een JFS-bestandssysteem. Dit zal "
-"waarschijnlijk problemen veroorzaken met de standaard opstartlader die door "
-"het installatieprogamma gebruikt wordt."
+"U heeft een btrfs-bestandssysteem aangekoppeld aan '/boot'. Dit wordt niet "
+"ondersteund door de standaard opstartlader van dit installatieprogamma."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You should use another file system, such as ext4, for the /boot partition."
 msgstr ""
-"U kunt best een ander bestandssysteem (b.v. ext3) gebruiken voor de '/boot'-"
-"partitie"
+"U moet een ander bestandssysteem, zoals ext4, gebruiken voor de '/boot'-"
+"partitie."
