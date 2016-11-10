@@ -16,7 +16,7 @@
 # Borys Yanovych <borys@yanovy.ch>, 2010, 2011.
 # Maxim V. Dziumanenko <dziumanenko@gmail.com>, 2010.
 # Yuri Chornoivan <yurchor@ukr.net>, 2010, 2011, 2012, 2013.
-# Anton Gladky <gladk@debian.org>, 2014
+# Anton Gladky <gladk@debian.org>, 2011-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
@@ -75,13 +75,12 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext4."
 msgstr ""
 "Вам потрібно використовувати невеликий розділ /boot з іншою файловою "
-"системою, такою як ext3."
+"системою, такою як ext4."
 
 #. Type: error
 #. Description
@@ -106,9 +105,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You should use another file system, such as ext4, for the /boot partition."
 msgstr ""
-"Вам потрібно використовувати іншу файлову систему, таку як ext3, для "
+"Вам потрібно використовувати іншу файлову систему, таку як ext4, для "
 "розділу /boot."

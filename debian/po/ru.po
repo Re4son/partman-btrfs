@@ -78,13 +78,12 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext4."
 msgstr ""
 "Вы должны использовать маленький /boot раздел с другой файловой системой, "
-"например ext3."
+"например ext4."
 
 #. Type: error
 #. Description
@@ -108,8 +107,7 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You should use another file system, such as ext4, for the /boot partition."
 msgstr ""
-"Для раздела /boot нужно использовать другую файловую систему, например ext3."
+"Для раздела /boot нужно использовать другую файловую систему, например ext4."
