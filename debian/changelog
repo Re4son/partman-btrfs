@@ -1,3 +1,12 @@
+partman-btrfs (24) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Danish (da.po) by Joe Hansen
+  * Dutch (nl.po) by Frans Spiesschaert
+  * Turkish (tr.po) by Mert Dirik
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 13 Nov 2016 07:49:36 +0100
+
 partman-btrfs (23) unstable; urgency=medium
 
   [ Updated translations ]
