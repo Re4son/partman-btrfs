@@ -8,7 +8,7 @@
 # This file is distributed under the same license as debian-installer.
 #
 # Talgat Daniyarov
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2008-2011
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2008-2016
 # Dauren Sarsenov <daur88@inbox.ru>, 2008, 2009
 #
 # Translations from iso-codes:
@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2016-10-04 22:00+0000\n"
-"PO-Revision-Date: 2015-04-02 12:00+0500\n"
+"PO-Revision-Date: 2016-11-17 11:17+0500\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh\n"
 "Language: kk\n"
@@ -75,12 +75,11 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext4."
 msgstr ""
-"Сіз шағын /boot бөлімін басқа файлдық жүйемен (мысалы ext3) пайдалануыңыз "
+"Сіз шағын /boot бөлімін басқа файлдық жүйемен (мысалы ext4) пайдалануыңыз "
 "керек."
 
 #. Type: error
@@ -105,7 +104,6 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You should use another file system, such as ext4, for the /boot partition."
-msgstr "/boot бөлімі үшін басқа файлдық жүйесін (мысалы ext3) қолдану керек."
+msgstr "/boot бөлімі үшін басқа файлдық жүйесін (мысалы ext4) қолдану керек."
