@@ -1,3 +1,11 @@
+partman-btrfs (25) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Czech (cs.po) by Miroslav Kure
+  * Kazakh (kk.po) by Baurzhan Muftakhidinov
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 23 Nov 2016 07:14:05 +0100
+
 partman-btrfs (24) unstable; urgency=medium
 
   [ Updated translations ]
