@@ -1,3 +1,10 @@
+partman-btrfs (26) unstable; urgency=medium
+
+  [ Updated translations ]
+  * German (de.po) by Holger Wansing
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 24 Nov 2016 07:13:54 +0100
+
 partman-btrfs (25) unstable; urgency=medium
 
   [ Updated translations ]
