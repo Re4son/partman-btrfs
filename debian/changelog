@@ -1,3 +1,10 @@
+partman-btrfs (27) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Japanese (ja.po) by Kenshi Muto
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 13 Dec 2016 08:33:11 +0100
+
 partman-btrfs (26) unstable; urgency=medium
 
   [ Updated translations ]
