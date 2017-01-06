@@ -1,3 +1,10 @@
+partman-btrfs (28) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Slovak (sk.po) by Ivan Masár
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 06 Jan 2017 11:47:17 +0100
+
 partman-btrfs (27) unstable; urgency=medium
 
   [ Updated translations ]
