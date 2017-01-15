@@ -29,16 +29,16 @@
 #   Ognyan Kulev <ogi@fmi.uni-sofia.bg>, 2004.
 #   Damyan Ivanov <dmn@debian.org>, 2006, 2007, 2008, 2009, 2010.
 #   Roumen Petrov <transl@roumenpetrov.info>, 2010.
-# Damyan Ivanov <dmn@debian.org>, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015.
+# Damyan Ivanov <dmn@debian.org>, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: bg\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2016-10-04 22:00+0000\n"
-"PO-Revision-Date: 2015-11-21 18:11+0200\n"
+"PO-Revision-Date: 2017-01-15 10:14+0200\n"
 "Last-Translator: Damyan Ivanov <dmn@debian.org>\n"
-"Language-Team: Bulgarian <dict@ludost.net>\n"
+"Language-Team: Български <dict@fsa-bg.org>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -88,13 +88,12 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext4."
 msgstr ""
-"Трябва да използвате малък дял за /boot с друга файлова система, като "
-"например ext3."
+"Необходимо е използването на малък дял за /boot с друга файлова система, "
+"например ext4."
 
 #. Type: error
 #. Description
@@ -119,9 +118,7 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You should use another file system, such as ext4, for the /boot partition."
 msgstr ""
-"Трябва да използвате друга файлова система за дяла на /boot, като например "
-"ext3."
+"Трябва да използвате друга файлова система за дяла на /boot, например ext4."
