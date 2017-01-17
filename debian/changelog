@@ -1,3 +1,10 @@
+partman-btrfs (29) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Bulgarian (bg.po) by Damyan Ivanov
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 17 Jan 2017 06:50:13 +0100
+
 partman-btrfs (28) unstable; urgency=medium
 
   [ Updated translations ]
