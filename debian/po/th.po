@@ -4,7 +4,7 @@
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
 # Thai translation of debian-installer.
-# Copyright (C) 2006-2016 Software in the Public Interest, Inc.
+# Copyright (C) 2006-2017 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
 # Theppitak Karoonboonyanan <theppitak@gmail.com>, 2006-2015.
 #
@@ -16,14 +16,14 @@
 #   Alastair McKinstry <mckinstry@computer.org>, 2002, 2004
 # Translations from KDE:
 #   Thanomsub Noppaburana <donga@midaassets.com>
-# Theppitak Karoonboonyanan <theppitak@gmail.com>, 2005-2016
+# Theppitak Karoonboonyanan <theppitak@gmail.com>, 2005-2017
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2016-10-04 22:00+0000\n"
-"PO-Revision-Date: 2016-02-21 11:19+0700\n"
+"PO-Revision-Date: 2017-02-22 21:24+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <theppitak@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
 "Language: th\n"
@@ -72,11 +72,10 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext4."
-msgstr "คุณควรสร้างพาร์ทิชัน /boot เล็กๆ ในรูปของระบบแฟ้มอื่น เช่น ext3"
+msgstr "คุณควรสร้างพาร์ทิชัน /boot เล็กๆ ในรูปของระบบแฟ้มอื่น เช่น ext4"
 
 #. Type: error
 #. Description
@@ -100,7 +99,6 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You should use another file system, such as ext4, for the /boot partition."
-msgstr "คุณควรใช้ระบบแฟ้มอื่นกับพาร์ทิชัน /boot เช่น ext3"
+msgstr "คุณควรใช้ระบบแฟ้มอื่นกับพาร์ทิชัน /boot เช่น ext4"
