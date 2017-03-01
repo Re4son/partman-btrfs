@@ -17,13 +17,13 @@
 # Alexander Nyakhaychyk <nyakhaychyk@gmail.com>, 2009.
 # Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2007, 2010.
 # Viktar Siarheichyk <viсs@eq.by>, 2014.
-# Viktar Siarheichyk <vics@fsfe.org>, 2014, 2015.
+# Viktar Siarheichyk <vics@fsfe.org>, 2014, 2015, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: be\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2016-10-04 22:00+0000\n"
-"PO-Revision-Date: 2015-12-21 15:13+0300\n"
+"PO-Revision-Date: 2017-03-01 16:35+0300\n"
 "Last-Translator: Viktar Siarheichyk <vics@fsfe.org>\n"
 "Language-Team: Debian l10n team for Belarusian <debian-l10n-belarusian@lists."
 "debian.org>\n"
@@ -78,13 +78,12 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext4."
 msgstr ""
-"Вам варта ўжываць маленькі падзел дыска /boot з файлавай сістэмай іншага "
-"тыпу (напрыклад, ext3)."
+"Вам варта выкарыстаць маленькі раздзел дыска /boot з файлавай сістэмай "
+"іншага тыпу (напрыклад, ext4)."
 
 #. Type: error
 #. Description
@@ -109,7 +108,7 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You should use another file system, such as ext4, for the /boot partition."
-msgstr "Для падзелу /boot лепш ужыць іншую файлавую сістэму (напрыклад, ext3)."
+msgstr ""
+"Для раздзелу /boot лепш ужыць іншую файлавую сістэму (напрыклад, ext4)."
