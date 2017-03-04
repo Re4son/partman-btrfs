@@ -1,3 +1,10 @@
+partman-btrfs (33) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Belarusian (be.po) by Viktar Siarheichyk
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 04 Mar 2017 07:35:10 +0100
+
 partman-btrfs (32) unstable; urgency=medium
 
   [ Updated translations ]
