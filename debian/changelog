@@ -1,3 +1,10 @@
+partman-btrfs (35) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Croatian (hr.po) by Valentin Vidic
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 10 Apr 2017 08:27:55 +0200
+
 partman-btrfs (34) unstable; urgency=medium
 
   [ Updated translations ]
