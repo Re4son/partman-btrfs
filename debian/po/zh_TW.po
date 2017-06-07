@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2016-10-04 22:00+0000\n"
-"PO-Revision-Date: 2013-09-30 14:59+0800\n"
+"PO-Revision-Date: 2017-06-06 20:39+0800\n"
 "Last-Translator: Yao Wei (魏銘廷) <mwei@lxde.org>\n"
 "Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
 "debian.org>\n"
@@ -65,56 +65,50 @@ msgstr "btrfs 日誌式檔案系統"
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr ""
+msgstr "btrfs 檔案系統無法支援，除非有分離的 /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"您的 root 檔案系統所使用的是 JFS 檔案系統。它和本安裝程式所預設的開機程式搭配"
-"使用時很可能會發生問題。"
+"您的 root 檔案系統所使用的是 btrfs 檔案系統。本安裝程式所預設的開機程式並不支"
+"援。"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext4."
 msgstr ""
-"您應該使用一個小的、並使用其它像是 ext3 格式的檔案系統來做為 /boot 分割區。"
+"您應該使用一個小的、並使用其它像是 ext4 格式的檔案系統來做為 /boot 分割區。"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "在 /target 上沒有掛載任何的檔案系統"
+msgstr "btrfs 檔案系統無法用在 /boot 上"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"您掛載在 /boot 上的是 JFS 檔案系統。它和本安裝程式所預設的開機程式搭配使用時"
-"很可能會發生問題。"
+"您掛載在 /boot 上的是 btrfs 檔案系統。本安裝程式所預設的開機程式並不支援。"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You should use another file system, such as ext4, for the /boot partition."
-msgstr "您應該在 /boot 分割區上使用其它像是 ext3 格式的檔案系統。"
+msgstr "您應該在 /boot 分割區上使用其它像是 ext4 格式的檔案系統。"
