@@ -16,13 +16,13 @@
 # Marce Villarino <mvillarino@users.sourceforge.net>, 2009.
 # marce villarino <mvillarino@users.sourceforge.net>, 2009.
 # Marce Villarino <mvillarino@gmail.com>, 2009.
-# Jorge Barreiro <xurxo@findomundo.es>, 2010, 2011, 2012, 2013, 2014, 2015.
+# Jorge Barreiro <xurxo@findomundo.es>, 2010, 2011, 2012, 2013, 2014, 2015, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2016-10-04 22:00+0000\n"
-"PO-Revision-Date: 2015-03-14 19:44+0100\n"
+"PO-Revision-Date: 2017-06-15 02:16+0200\n"
 "Last-Translator: Jorge Barreiro <xurxo@findomundo.es>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
@@ -75,13 +75,12 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext4."
 msgstr ""
 "Debería empregar unha pequena partición para /boot con outro sistema de "
-"ficheiros, como ext3."
+"ficheiros, como por exemplo ext4."
 
 #. Type: error
 #. Description
@@ -105,9 +104,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You should use another file system, such as ext4, for the /boot partition."
 msgstr ""
-"Debería empregar outro sistema de ficheiros, como ext3, para a partición /"
-"boot."
+"Debería empregar outro sistema de ficheiros, como por exemplo ext4, para a "
+"partición /boot."
