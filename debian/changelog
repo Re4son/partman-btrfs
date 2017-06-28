@@ -1,3 +1,12 @@
+partman-btrfs (36) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Galician (gl.po) by Jorge Barreiro
+  * Simplified Chinese (zh_CN.po) by Yangfl
+  * Traditional Chinese (zh_TW.po) by Yao Wei (魏銘廷)
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 28 Jun 2017 07:28:38 +0200
+
 partman-btrfs (35) unstable; urgency=medium
 
   [ Updated translations ]
