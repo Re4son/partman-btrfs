@@ -1,3 +1,10 @@
+partman-btrfs (37) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Bokmål, Norwegian (nb.po) by Petter Reinholdtsen
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 03 Jul 2017 17:45:38 +0200
+
 partman-btrfs (36) unstable; urgency=medium
 
   [ Updated translations ]
