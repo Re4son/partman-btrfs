@@ -12,13 +12,14 @@
 # Translations from iso-codes:
 #   Alastair McKinstry <mckinstry@debian.org>, 2004
 #   Elian Myftiu <elian.myftiu@gmail.com>, 2004,2006.
+#   Eva Vranici <evavranici@gmail.com>, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2016-10-04 22:00+0000\n"
-"PO-Revision-Date: 2010-02-21 18:30+0100\n"
-"Last-Translator:  Elian Myftiu <elian.myftiu@gmail.com>\n"
+"PO-Revision-Date: 2017-09-04 19:01+0300\n"
+"Last-Translator: Redon Skikuli <rskikuli@gmail.com>\n"
 "Language-Team: Albanian \n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
@@ -43,68 +44,60 @@ msgstr ""
 #. :sl2:
 #. File system name
 #: ../partman-btrfs.templates:2001
-#, fuzzy
 msgid "btrfs journaling file system"
-msgstr "Filesistem Ext3 journaling"
+msgstr "btrfs filesistem journaling"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid "btrfs root file system not supported without separate /boot"
-msgstr "Të përdor lloj filesistemi që nuk suportohet për /boot?"
+msgstr "btrfs filesistemi rrënjë që nuk suportohet për /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "Your root file system is a btrfs file system. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Filesistemi root është i llojit JFS. Ky krijon probleme me ngarkuesin e "
-"nisjes së parazgjedhur përdorur nga ky instalues:"
+"Filesistemi rrënjë është i llojit btrfs. Ky krijon probleme me ngarkuesin e "
+"nisjes së parazgjedhur përdorur nga ky instalues."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext4."
 msgstr ""
-"Duhet të përdorësh një ndarje të vogël /boot me një filesistem tjetër, p.sh. "
-"ext3."
+"Duhet të përdorësh një ndarje të vogël /boot me një filesistem tjetër, si "
+"ext4."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "Të përdor lloj filesistemi që nuk suportohet për /boot?"
+msgstr "Filesistemi btrfsqë nuk suportohet për /boot"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Ke montuar një filesistem të llojit JFS si /boot. Ky krijon probleme me "
+"Ke montuar një filesistem të llojit btrfs si /boot. Ky krijon probleme me "
 "ngarkuesin e nisjes së parazgjedhur përdorur nga ky instalues."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You should use another file system, such as ext4, for the /boot partition."
-msgstr ""
-"Duhet të përdorësh një filesistem tjetër, p.sh. ext3, për ndarjen /boot."
+msgstr "Duhet të përdorësh një filesistem tjetër, si ext4, për ndarjen /boot."
