@@ -1,3 +1,10 @@
+partman-btrfs (39) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Slovenian (sl.po) by Vanja Cvelbar
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 18 Oct 2017 08:56:04 +0200
+
 partman-btrfs (38) unstable; urgency=medium
 
   [ Updated translations ]
