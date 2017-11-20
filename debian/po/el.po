@@ -33,14 +33,14 @@ msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2016-10-04 22:00+0000\n"
-"PO-Revision-Date: 2014-05-11 13:37+0300\n"
-"Last-Translator: galaxico <galaxico@quad-nrg.net>\n"
+"PO-Revision-Date: 2017-11-17 01:07+0200\n"
+"Last-Translator: Sotirios Vrachas <sotirios@vrachas.net>\n"
 "Language-Team: el <debian-l10n-greek@lists.debian.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Type: text
 #. Description
@@ -87,20 +87,19 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext4."
 msgstr ""
-"Θα πρέπει να χρησιμοποιήσετε μια μικρή κατάτμηση για το /boot με άλλο τύπο "
-"συστήματος αρχείων, όπως ext3."
+"Θα πρέπει να χρησιμοποιήσετε μια μικρή /boot κατάτμηση με άλλο τύπο "
+"συστήματος αρχείων, όπως ext4."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
 msgid "btrfs file system not supported for /boot"
-msgstr "Το σύστημα αρχείων btrfs δεν υποστηρίζεται για την κατάτμηση /boot"
+msgstr "btrfs σύστημα αρχείων δεν υποστηρίζεται για την κατάτμηση /boot"
 
 #. Type: error
 #. Description
@@ -118,9 +117,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You should use another file system, such as ext4, for the /boot partition."
 msgstr ""
-"Θα πρέπει να χρησιμοποιήσετε έναν άλλο τύπο συστήματος αρχείων, όπως ext3, "
+"Θα πρέπει να χρησιμοποιήσετε έναν άλλο τύπο συστήματος αρχείων, όπως ext4, "
 "για την κατάτμηση /boot."
