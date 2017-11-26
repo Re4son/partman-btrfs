@@ -1,3 +1,14 @@
+partman-btrfs (40) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Catalan (ca.po) by Jordi Mallach
+  * Greek (el.po) by Sotirios Vrachas
+  * Estonian (et.po) by Kristjan Räts
+  * Norwegian Nynorsk (nn.po) by Allan Nordhøy
+  * Swedish (sv.po) by Anders Jonsson
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 26 Nov 2017 07:15:07 +0100
+
 partman-btrfs (39) unstable; urgency=medium
 
   [ Updated translations ]
