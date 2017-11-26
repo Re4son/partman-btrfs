@@ -19,21 +19,21 @@
 # Gediminas Paulauskas <menesis@delfi.lt>, 2000-2001.
 # Alastair McKinstry <mckinstry@computer.org>, 2001,2002.
 # Kęstutis Biliūnas <kebil@kaunas.init.lt>, 2004, 2006, 2008, 2009, 2010.
-# Rimas Kudelis <rq@akl.lt>, 2012.
+# Rimas Kudelis <rq@akl.lt>, 2012, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2016-10-04 22:00+0000\n"
-"PO-Revision-Date: 2012-08-26 02:00+0300\n"
+"PO-Revision-Date: 2017-11-26 20:23+0000\n"
 "Last-Translator: Rimas Kudelis <rq@akl.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
 
 #. Type: text
 #. Description
@@ -71,26 +71,25 @@ msgid ""
 "boot loader used by default by this installer."
 msgstr ""
 "Jūsų šakninė (root) failų sistema yra btrfs. Tai gali sukelti problemų "
-"pradiniam įkėlikliui, pagal nutylėjimą naudojamam šiame įdiegiklyje."
+"paleidyklei, pagal nutylėjimą naudojamam šiame įdiegiklyje."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
-#, fuzzy
 msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext4."
 msgstr ""
-"Jūs turite naudoti nedidelį /boot skaidinį su kita failų sistema, "
-"pavyzdžiui, ext3."
+"Jūs turėtumėte naudoti nedidelį /boot skaidinį su kita failų sistema, "
+"pavyzdžiui, ext4."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
 msgid "btrfs file system not supported for /boot"
-msgstr "Failų sistema btrfs netinkama /boot katalogui"
+msgstr "Failų sistema btrfs yra netinkama /boot katalogui"
 
 #. Type: error
 #. Description
@@ -107,7 +106,6 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
-#, fuzzy
 msgid ""
 "You should use another file system, such as ext4, for the /boot partition."
-msgstr "Turite /boot skaidiniui naudoti kitą failų sistemą, pavyzdžiui, ext3."
+msgstr "Turite /boot skaidiniui naudoti kitą failų sistemą, pavyzdžiui, ext4."
