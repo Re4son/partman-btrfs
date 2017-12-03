@@ -1,3 +1,12 @@
+partman-btrfs (41) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Esperanto (eo.po) by Felipe Castro
+  * Hungarian (hu.po) by Dr. Nagy Elemér Károly
+  * Lithuanian (lt.po) by Rimas Kudelis
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 03 Dec 2017 15:38:15 +0100
+
 partman-btrfs (40) unstable; urgency=medium
 
   [ Updated translations ]
