@@ -1,3 +1,12 @@
+partman-btrfs (42) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Icelandic (is.po) by Sveinn í Felli
+  * Panjabi (pa.po) by Aman ALam
+  * Serbian (sr.po) by Filipovic Dragan
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 13 Jan 2018 19:45:21 +0100
+
 partman-btrfs (41) unstable; urgency=medium
 
   [ Updated translations ]
