@@ -1,3 +1,11 @@
+partman-btrfs (43) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Bokmål, Norwegian (nb.po) by Petter Reinholdtsen
+  * Tajik (tg.po) by Victor Ibragimov
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 23 Jan 2018 07:26:56 +0100
+
 partman-btrfs (42) unstable; urgency=medium
 
   [ Updated translations ]
