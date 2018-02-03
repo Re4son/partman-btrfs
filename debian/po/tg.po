@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2016-10-04 22:00+0000\n"
-"PO-Revision-Date: 2018-01-21 20:21+0500\n"
+"PO-Revision-Date: 2018-02-03 14:48+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
 "Language: tg\n"
@@ -50,7 +50,7 @@ msgstr "Низоми файлии btrfs journaling"
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr "Низоми файлии btrfs root бе имкони /boot-и ҷудо дастгирӣ намешавад"
+msgstr "Низоми файлии решагии btrfs бе имкони /boot-и ҷудо дастгирӣ намешавад"
 
 #. Type: error
 #. Description
@@ -79,7 +79,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-btrfs.templates:5001
 msgid "btrfs file system not supported for /boot"
-msgstr "Ягон низоми файлӣ дар /target васл нашудааст"
+msgstr "Низоми файлии btrfs /boot дастгирӣ намешавад"
 
 #. Type: error
 #. Description
