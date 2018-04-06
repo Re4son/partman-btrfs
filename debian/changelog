@@ -1,3 +1,12 @@
+partman-btrfs (45) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Arabic (ar.po) by ButterflyOfFire
+  * Welsh (cy.po) by Huw Waters
+  * Indonesian (id.po) by Andika Triwidada
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 06 Apr 2018 10:09:05 +0200
+
 partman-btrfs (44) unstable; urgency=medium
 
   [ Updated translations ]
