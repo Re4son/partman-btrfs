@@ -1,3 +1,14 @@
+partman-btrfs (47) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Galician (gl.po) by mantinan
+  * Latvian (lv.po) by Tranzistors
+  * Marathi (mr.po) by Nayan Nakhare
+
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 30 Oct 2018 19:18:20 +0100
+
 partman-btrfs (46) unstable; urgency=medium
 
   [ Cyril Brulebois ]
