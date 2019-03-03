@@ -1,3 +1,13 @@
+partman-btrfs (48) unstable; urgency=medium
+  * Team upload
+
+  [ Updated translations ]
+  * Persian (fa.po) by nima sahraneshin
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Vietnamese (vi.po) by Trần Ngọc Quân
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 03 Mar 2019 10:54:10 +0100
+
 partman-btrfs (47) unstable; urgency=medium
 
   * Team upload
