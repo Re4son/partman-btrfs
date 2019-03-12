@@ -2,7 +2,7 @@ Source: partman-btrfs
 Section: debian-installer
 Priority: standard
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
-Uploaders: Anton Zinoviev <zinoviev@debian.org>, Christian Perrier <bubulle@debian.org>, Dimitri John Ledkov <xnox@debian.org>
+Uploaders: Anton Zinoviev <zinoviev@debian.org>, Christian Perrier <bubulle@debian.org>
 Build-Depends: debhelper (>= 9), dh-di, po-debconf (>= 0.5.0)
 Vcs-Browser: https://salsa.debian.org/installer-team/partman-btrfs
 Vcs-Git: https://salsa.debian.org/installer-team/partman-btrfs.git

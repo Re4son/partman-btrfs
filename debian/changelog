@@ -1,3 +1,9 @@
+partman-btrfs (49) UNRELEASED; urgency=medium
+
+  * Remove myself from uploaders.
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Tue, 12 Mar 2019 04:26:55 +0000
+
 partman-btrfs (48) unstable; urgency=medium
   * Team upload
 
