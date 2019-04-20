@@ -1,6 +1,11 @@
 partman-btrfs (49) UNRELEASED; urgency=medium
 
+  [ Dimitri John Ledkov ]
   * Remove myself from uploaders.
+
+  [ Cyril Brulebois ]
+  * Remove Christian Perrier from Uploaders, with many thanks for all
+    his contributions over the years!
 
  -- Dimitri John Ledkov <xnox@ubuntu.com>  Tue, 12 Mar 2019 04:26:55 +0000
 
