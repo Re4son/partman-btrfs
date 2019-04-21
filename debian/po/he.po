@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2016-10-04 22:00+0000\n"
-"PO-Revision-Date: 2019-02-11 10:09+0000\n"
+"PO-Revision-Date: 2019-04-20 07:33+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -62,7 +62,7 @@ msgstr "מערכת קבצים מבוססת יומן מסוג btrfs"
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr "מערכת הקבצים btrfs אינה נתמכת בלי מחיצת /boot נפרדת"
+msgstr "אין תמיכה במערכת הקבצים btrfs ללא מחיצת ‎/boot נפרדת"
 
 #. Type: error
 #. Description
@@ -82,14 +82,14 @@ msgstr ""
 msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext4."
-msgstr "כדאי שתשמש במחיצת /boot קטנה עם מערכת קבצים אחרת, כגון ext4."
+msgstr "כדאי להשתמש במחיצת ‎/boot קטנה עם מערכת קבצים אחרת, כגון ext4."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
 msgid "btrfs file system not supported for /boot"
-msgstr "מערכת הקבצים btrfs אינה נתמכת עבור /boot"
+msgstr "מערכת הקבצים btrfs אינה נתמכת עבור ‎/boot"
 
 #. Type: error
 #. Description
@@ -99,8 +99,8 @@ msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"מערכת קבצים מסוג btrfs עוגנה כ-/boot. היא אינה נתמכת על ידי מנהל האתחול "
-"שהוגדר כברירת מחדל על ידי תוכנית ההתקנה."
+"עיגנת מערכת קבצים מסוג btrfs כ־‎/boot. מנהל האתחול שהוגדר כבררת מחדל על ידי "
+"תכנית ההתקנה אינו תומך במצב שכזה."
 
 #. Type: error
 #. Description
@@ -108,4 +108,4 @@ msgstr ""
 #: ../partman-btrfs.templates:5001
 msgid ""
 "You should use another file system, such as ext4, for the /boot partition."
-msgstr "כדאי שתשמש במערכת קבצים אחרת כמו ext4 למחיצה /boot."
+msgstr "כדאי להשתשמש במערכת קבצים אחרת כמו ext4 למחיצה ‎/boot."
