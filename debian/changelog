@@ -5,7 +5,7 @@ partman-btrfs (49) UNRELEASED; urgency=medium
 
   [ Cyril Brulebois ]
   * Remove Christian Perrier from Uploaders, with many thanks for all
-    his contributions over the years!
+    his contributions over the years! (Closes: #927539)
 
  -- Dimitri John Ledkov <xnox@ubuntu.com>  Tue, 12 Mar 2019 04:26:55 +0000
 
