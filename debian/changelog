@@ -1,4 +1,6 @@
-partman-btrfs (49) UNRELEASED; urgency=medium
+partman-btrfs (49) unstable; urgency=medium
+
+  * Team upload
 
   [ Dimitri John Ledkov ]
   * Remove myself from uploaders.
@@ -7,9 +9,13 @@ partman-btrfs (49) UNRELEASED; urgency=medium
   * Remove Christian Perrier from Uploaders, with many thanks for all
     his contributions over the years! (Closes: #927539)
 
- -- Dimitri John Ledkov <xnox@ubuntu.com>  Tue, 12 Mar 2019 04:26:55 +0000
+  [ Updated translations ]
+  * Hebrew (he.po) by Yaron Shahrabani
+
+ -- Holger Wansing <hwansing@mailbox.org>  Mon, 22 Apr 2019 08:58:45 +0200
 
 partman-btrfs (48) unstable; urgency=medium
+
   * Team upload
 
   [ Updated translations ]
