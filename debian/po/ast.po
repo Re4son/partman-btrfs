@@ -9,6 +9,7 @@
 # in doc/i18n/i18n.txt
 # astur <malditoastur@gmail.com>, 2010
 # Marquinos <maacub@gmail.com>, 2010.
+# Xuacu Saturio <xuacusk8@gmail.com>, 2018.
 # Translations from iso-codes:
 # Marcos Alvarez Costales <marcoscostales@gmail.com>, 2009, 2010.
 # Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
@@ -19,8 +20,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-btrfs@packages.debian.org\n"
 "POT-Creation-Date: 2016-10-04 22:00+0000\n"
-"PO-Revision-Date: 2012-10-10 02:04+0100\n"
-"Last-Translator: Mikel González <mikelglez@softastur.org>\n"
+"PO-Revision-Date: 2019-08-28 18:10+0000\n"
+"Last-Translator: leela <53352@protonmail.com>\n"
 "Language-Team: Softastur\n"
 "Language: ast\n"
 "MIME-Version: 1.0\n"
@@ -82,8 +83,9 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:5001
+#, fuzzy
 msgid "btrfs file system not supported for /boot"
-msgstr "Sistema de ficheros btrfs nun sofitada pa /boot?"
+msgstr "Sistema de ficheros btrfs nun sofitada pa /boot"
 
 #. Type: error
 #. Description
