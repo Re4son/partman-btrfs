@@ -1,3 +1,14 @@
+partman-btrfs (50) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Asturian (ast.po) by leela
+  * Croatian (hr.po) by gogogogi
+  * Kannada (kn.po) by leela
+
+ -- Holger Wansing <hwansing@mailbox.org>  Wed, 13 Nov 2019 23:25:46 +0100
+
 partman-btrfs (49) unstable; urgency=medium
 
   * Team upload
