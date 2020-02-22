@@ -1,3 +1,17 @@
+partman-btrfs (50kali2) kali-dev; urgency=medium
+
+  * Add support for creating and mounting btrfs subvolumes corresponding
+    to /.snapshots, /root, /tmp and /var/log, in case of a btrfs rootfs.
+
+ -- Carsten Boeving <re4son@kali.org>  Thu, 20 Feb 2020 08:20:35 +1100
+
+partman-btrfs (50kali1) kali-dev; urgency=medium
+
+  * Add support for creating and mounting btrfs subvolumes corresponding
+    to / and /home, in case of a btrfs rootfs.
+
+ -- Carsten Boeving <re4son@kali.org>  Wed, 19 Feb 2020 17:51:34 +1100
+
 partman-btrfs (50) unstable; urgency=medium
 
   * Team upload

@@ -2,6 +2,16 @@
 
 . /lib/partman/lib/base.sh
 
+home_found="unknown"
+log_found="unknown"
+root_found="unknown"
+snapshots_found="unknown"
+tmp_found="unknown"
+var_found="unkown"
+
+# There is no btrfs fsck
+pass=0
+
 for dev in $DEVICES/*; do
 	[ -d $dev ] || continue
 	cd $dev
@@ -12,19 +22,110 @@ for dev in $DEVICES/*; do
 		[ -f "$id/acting_filesystem" ] || continue
 		method=$(cat $id/method)
 		filesystem=$(cat $id/acting_filesystem)
+		mountpoint=$(cat $id/mountpoint)
 		case "$filesystem" in
 		    btrfs)
 			[ -f "$id/mountpoint" ] || continue
-			mountpoint=$(cat $id/mountpoint)
 			# due to #249322, #255135, #258117:
 			if [ "$mountpoint" = /tmp ]; then
 				rm -f $id/options/noexec
 			fi
 			options=$(get_mountoptions $dev $id)
-			# There is no btrfs fsck
-			echo "$path" "$mountpoint" btrfs $options 0 0
+			if [ "$mountpoint" = "/" ]; then
+				if [ "$home_found" = "unknown" ]; then
+					home_found="false"
+				fi
+				if [ "$log_found" = "unknown" ]; then
+					log_found="false"
+				fi
+				if [ "$root_found" = "unknown" ]; then
+					root_found="false"
+				fi
+				if [ "$snapshots_found" = "unknown" ]; then
+					snapshots_found="false"
+				fi
+				if [ "$tmp_found" = "unknown" ]; then
+					tmp_found="false"
+				fi
+				if [ "$var_found" = "unknown" ]; then
+					var_found="false"
+				fi
+				home_options="${options:+$options,}subvol=@home"
+				log_options="${options:+$options,}subvol=@log"
+				root_options="${options:+$options,}subvol=@root"
+				snapshots_options="${options:+$options,}subvol=@snapshots"
+				tmp_options="${options:+$options,}subvol=@tmp"
+				options="${options:+$options,}subvol=@"
+				home_path="$path"
+				log_path="$path"
+				root_path="$path"
+				snapshots_path="$path"
+				tmp_path="$path"
+				home_mp="${mountpoint}home"
+				log_mp="${mountpoint}var/log"
+				root_mp="${mountpoint}root"
+				snapshots_mp="${mountpoint}.snapshots"
+				tmp_mp="${mountpoint}tmp"
+			elif [ "$mountpoint" = "/home" ]; then
+				options="${options:+$options,}subvol=@home"
+				home_found="true"
+			elif [ "$mountpoint" = "/root" ]; then
+				options="${options:+$options,}subvol=@root"
+				root_found="true"
+			elif [ "$mountpoint" = "/.snapshots" ]; then
+				options="${options:+$options,}subvol=@snapshots"
+				snapshot_found="true"
+			elif [ "$mountpoint" = "/tmp" ]; then
+				options="${options:+$options,}subvol=@tmp"
+				tmp_found="true"
+			elif [ "$mountpoint" = "/var" ]; then
+				options="${options:+$options,}subvol=@var"
+				var_found="true"
+				log_found="true"
+			elif [ "$mountpoint" = "/var/log" ]; then
+				options="${options:+$options,}subvol=@log"
+				log_found="true"
+			fi
+			echo "$path" "$mountpoint" btrfs $options 0 $pass
+			;;
+		    *)
+			if [ "$mountpoint" = "/home" ]; then
+				home_found="true"
+                        elif [ "$mountpoint" = "/var/log" ]; then
+				log_found="true"
+			elif [ "$mountpoint" = "/root" ]; then
+				root_found="true"
+			elif [ "$mountpoint" = "/.snapshots" ]; then
+				snapshots_found="true"
+			elif [ "$mountpoint" = "/tmp" ]; then
+				tmp_found="true"
+			elif [ "$mountpoint" = "/var" ]; then
+				var_found="true"
+				log_found="true"
+			fi
 			;;
 		esac
 	done
 	close_dialog
 done
+
+if [ "$home_found" = "false" ]; then
+	echo "$home_path" "$home_mp" btrfs "$home_options" 0 $pass
+	home_found="true"
+fi
+if [ "$log_found" = "false" ]; then
+	echo "$log_path" "$log_mp" btrfs "$log_options" 0 $pass
+	log_found="true"
+fi
+if [ "$root_found" = "false" ]; then
+	echo "$root_path" "$root_mp" btrfs "$root_options" 0 $pass
+	root_found="true"
+fi
+if [ "$snapshots_found" = "false" ]; then
+	echo "$snapshots_path" "$snapshots_mp" btrfs "$snapshots_options" 0 $pass
+	snapshots_found="true"
+fi
+if [ "$tmp_found" = "false" ]; then
+	echo "$tmp_path" "$tmp_mp" btrfs "$tmp_options" 0 $pass
+	tmp_found="true"
+fi

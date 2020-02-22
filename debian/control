@@ -1,11 +1,12 @@
 Source: partman-btrfs
 Section: debian-installer
 Priority: standard
-Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
-Uploaders: Anton Zinoviev <zinoviev@debian.org>
+XSBC-Original-Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Maintainer: Kali Developers <devel@kali.org>
+Uploaders: Raphaël Hertzog <buxy@kali.org>, Carsten Boeving <re4son@kali.org>
 Build-Depends: debhelper (>= 9), dh-di, po-debconf (>= 0.5.0)
-Vcs-Browser: https://salsa.debian.org/installer-team/partman-btrfs
-Vcs-Git: https://salsa.debian.org/installer-team/partman-btrfs.git
+Vcs-Browser: https://gitlab.com/kalilinux/packages/partman-btrfs
+Vcs-Git: https://gitlab.com/kalilinux/packages/partman-btrfs.git
 
 Package: partman-btrfs
 Package-Type: udeb
